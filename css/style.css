@@ -43,19 +43,15 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   color:rgb(25,25,25);
-  text-shadow: 0px 0px 8px #FFFFFF;
+  text-shadow: 0px 0px 10px #FFFFFF;
 }
 
 #bio {
-}
-
-#education {
-  background: url(../images/2.jpg) no-repeat center center fixed;
+  background: url(../images/3.jpg) no-repeat center center fixed;
   height: 100%;
   width: 100%;
   position: relative;
   display: table;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -64,13 +60,35 @@ html, body {
   text-shadow: 0px 0px 10px #FFFFFF;
   font-weight: bold;
 }
+#bio .panel {
+  opacity: 0.75;
+  margin: 0% 10%;
+}
 
-
-
-#information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
+#education {
+  background: url(../images/2.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
   display: table;
-  height: 800px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+  font-weight: bold;
+}
+#education .panel {
+  opacity: 0.75;
+  margin: 10% 10%;
+}
+
+
+#research {
+  background: url(../images/1.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
   position: relative;
   width: 100%;
   -webkit-background-size: cover;
@@ -78,8 +96,39 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
 }
-#information .panel {
-  opacity: 0.85;
+#research .panel-group {
+  opacity: 0.75;
+  padding: 0% 15%;
+}
+
+#resume {
+  background: url(../images/6.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#resume .panel {
+  opacity: 0.8;
+}
+
+#contact {
+  background: url(../images/5.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#contact .panel {
+  opacity: 0.8;
 }
 
 #google_map {
@@ -95,4 +144,18 @@ footer .glyphicon {
 }
 footer .glyphicon:hover {
   color: #306d9f;
+}
+
+.line-separator{
+  height:1px;
+  background:#000000;
+  opacity: 0.25;
+  margin: 20px 0px;
+}
+
+.background-for-text{
+  background: #FFFFFF;
+  margin: 5% 30%;
+  padding: 10px 10px;
+  opacity: 0.75;
 }
