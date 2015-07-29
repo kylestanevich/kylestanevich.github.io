@@ -1,53 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-	<title>my website</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <link rel="icon" href="">
+
+    <title>my website</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Script Tutorials" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"  />
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example" data-offset="20">
+<!-- Body -->
 
-<div class="container-fluid text-center">
-	<div class="jumbotron">
-		<h1>Kyle Stanevich's Website!</h1> 
-		<p>Where I will put stuff like...</p>
-		<a href="#" class="btn btn-info btn-lg">
-			<span class="glyphicon glyphicon glyphicon-envelope"></span> Contact Me
-		</a>
-	</div>
+<!-- nav bar that stays on the top of the page -->
+<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- makes the nav bar span the entire page -->
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Kyle Stanevich's Website</a>
+        </div>
 
-	<ul class="nav nav-tabs">
-		<li class="active"><a href="#">Home</a></li>
-		<li class="dropdown">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="#">Menu 1 <span class="caret"></span></a>
-			<ul class="dropdown-menu">
-				<li><a href="#">Submenu 1-1</a></li>
-				<li><a href="#">Submenu 1-2</a></li>
-				<li><a href="#">Submenu 1-3</a></li>                        
-			</ul>
-		</li>
-		<li><a href="#">Menu 2</a></li>
-		<li><a href="#">Menu 3</a></li>
-	</ul>
+        <div class="collapse navbar-collapse" ng-controller="HeaderController" id="navbar-collapse-main">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#information">Information</a></li>
+                <li><a href="#google_map">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.google.com">To Kyle's Server</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-	<div class="row">
-		<div class="col-md-4">
-			<p>this is a paragraph.</p>
-		</div>
-		<div class="col-md-4"> 
-			<p>this is another paragraph.</p>
-		</div>
-		<div class="col-md-4"> 
-			<p>this is a third paragraph.</p>
-		</div>
-	</div>
 
+
+<!-- Home -->
+<div id="home" class="home">
+    <div class="text-vcenter">
+        <h1>Welcome</h1>
+        <h2>This is Kyle Stanevich's Website</h2>
+        <h3>Have a look around!</h3>
+    </div>
 </div>
+
+<!-- Bio -->
+<div id="bio" class="pad-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/face.jpg"/>
+            </div>
+            <div class="col-sm-6 text-center">
+                <h2><b>Bio</b></h2>
+                <p class="lead">Currently working toward a Bachelor's Degree of Science in Aerospace Engineering at University of Illinois at Urbana–Champaign.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Education -->
+<div id="education" class="pad-section">
+    <div class="container">
+        <h2 class="text-center"><b>Education</b></h2> <hr />
+        <div class="row text-center">
+            <div class="col-sm-4 col-xs-6">
+                <img src="images/imsa.png"/>
+                <h3><b>Illinois Mathematics and Science Academy</b></h3>
+                <p>High School for gifted students in Illinois.</p>
+            </div>
+            <div class="col-sm-4 col-xs-6">
+                <img src="images/iit.jpg"/>
+                <h3><b>Illinois Institute of Technology</b></h3>
+                <p>Attended college here for 3 semesters on a full scholarship.</p>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <img src="images/uiuc.png"/>
+                <h3><b>University of Illinois at Urbana–Champaign</b></h3>
+                <p>Currently studying Aerospace Engineering here. Transfered here to pursue research.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- JavaScript -->
+    <!--[if IE]>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <![if !IE]>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <![endif]>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
