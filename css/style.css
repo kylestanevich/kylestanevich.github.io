@@ -51,6 +51,13 @@ html, body {
 
 #education {
   background: url(../images/2.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   color:rgb(25,25,25);
   text-shadow: 0px 0px 10px #FFFFFF;
   font-weight: bold;
