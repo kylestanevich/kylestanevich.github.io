@@ -1,0 +1,89 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+.text-vcenter h2 {
+  font-weight: bold;
+}
+.text-vcenter h3 {
+  font-weight: bold;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/4.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 8px #FFFFFF;
+}
+
+#bio {
+}
+
+#education {
+  background: url(../images/2.jpg) no-repeat center center fixed;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+  font-weight: bold;
+}
+
+
+
+#information {
+  background: url(../images/estate.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 800px;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
