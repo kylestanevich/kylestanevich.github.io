@@ -57,8 +57,6 @@ html, body {
   -o-background-size: cover;
   background-size: cover;
   color:rgb(25,25,25);
-  text-shadow: 0px 0px 10px #FFFFFF;
-  font-weight: bold;
 }
 #bio .panel {
   opacity: 0.75;
@@ -95,10 +93,10 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color:rgb(25,25,25);
 }
-#research .panel-group {
+#research .panel {
   opacity: 0.75;
-  padding: 0% 15%;
 }
 
 #resume {
@@ -111,6 +109,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color:rgb(25,25,25);
 }
 #resume .panel {
   opacity: 0.8;
@@ -126,6 +125,7 @@ html, body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color:rgb(25,25,25);
 }
 #contact .panel {
   opacity: 0.8;
@@ -146,16 +146,16 @@ footer .glyphicon:hover {
   color: #306d9f;
 }
 
-.line-separator{
+.line-separator-black{
   height:1px;
   background:#000000;
   opacity: 0.25;
   margin: 20px 0px;
 }
 
-.background-for-text{
-  background: #FFFFFF;
-  margin: 5% 30%;
-  padding: 10px 10px;
-  opacity: 0.75;
+.line-separator-white{
+  height:1px;
+  background:#FFFFFF;
+  opacity: 0.4;
+  margin: 20px 0px;
 }
