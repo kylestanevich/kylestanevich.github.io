@@ -33,7 +33,7 @@
 </div>
 
 
-<ul class="topnav">
+<ul class="topnav clearfix">
 	<li><a class="active homebtn" href="#home">Home</a></li>
 	<li><a class="newsbtn" href="#news">News</a></li>
 	<li><a class="c6btn" href="#contact">Contact</a></li>
@@ -44,18 +44,32 @@
 	<li class="right"><a class="aboutbtn" href="#about">About</a></li>
 </ul>
 
-<ul class="topnavdrop">
-  <li class="dropdown">
-    <a class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </li>
+<ul class="droptopnav clearfix">
+	<li>
+		<a class="dropbtn">Dropdown</a>
+		<div class="droplist">
+			<a href="#">Link 1</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+		</div>
+	</li>
 </ul>
 
-<div style="padding:0 16px;">
+<div class="fullpage">
+	<div class="center">
+		<img src="1.jpg" title="Hover Text" alt="describe picture">
+		<img src="1.jpg" title="Hover Text" alt="describe picture">
+	</div>
+	<div>
+		jfdklsdsfjkll lkjdsf kljd sf
+	</div>
+</div>
+
+<div class="fullpage">
+jfdskljfdskl;jfklsd;jkfldsj klfdjsk lfds fdjsklf jsk
+</div>
+
+<div>
 	<h2>Responsive Topnav Example</h2>
 	<h2>Responsive Topnav Example</h2>
 	<h2>Responsive Topnav Example</h2>
@@ -76,9 +90,6 @@
 	<h2>Responsive Topnav Example</h2>
 	<h2>Responsive Topnav Example</h2>
 	<h2>Responsive Topnav Example</h2>
-	<p>This example use media queries to stack the topnav vertically when the screen size is 600px or less.</p>
-	<p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
-	<h4>Resize the browser window to see the effect.</h4>
 </div>
 
 
@@ -108,7 +119,7 @@
 
 <script>
 (function() {
-	resize();
+	getinitsize();
 })();
 </script>
 

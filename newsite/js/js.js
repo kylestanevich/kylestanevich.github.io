@@ -1,8 +1,8 @@
-$(document).ready(function (){
+//$(document).ready(function (){
 //jquery function at load
 //replace loadFunction with this if things are not loading fast enough
-	resize;
-});
+//	resize;
+//});
 
 function loadFunction(){
 	resize;
@@ -15,7 +15,7 @@ function loadFunction(){
 	var ilhome = new google.maps.LatLng(40.1449454,-88.2484837); 
 	// prepare the map properties
 	var options = {
-		zoom: 5,
+		zoom: 4,
 		center: latlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		navigationControl: true,
@@ -52,41 +52,33 @@ function loadFunction(){
 }
 
 function resize(){
-		//var overallHeight = document.querySelector("ul.topnav").clientHeight;
-		var padding = parseInt(window.getComputedStyle(document.querySelector("ul.topnav")).getPropertyValue('padding'),10);
-		//var elementHeight = document.querySelector("ul.topnav li a").clientHeight;
-		//if (overallHeight > (elementHeight+2*padding)){
-		//	isNavTwoLines = true;
-		//	alert('two lines');
-		//}else{
-		//	isNavTwoLines = false;
-		//	alert('one line');
-		//}
-		
-		var homebtnWidth = document.querySelector("ul.topnav li a.homebtn").clientWidth;
-		var newsbtnWidth = document.querySelector("ul.topnav li a.newsbtn").clientWidth;
-		var c12btnWidth = document.querySelector("ul.topnav li a.c12btn").clientWidth;
-		var c6btnWidth = document.querySelector("ul.topnav li a.c6btn").clientWidth;
-		var c3btnWidth = document.querySelector("ul.topnav li a.c3btn").clientWidth;
-		var c4btnWidth = document.querySelector("ul.topnav li a.c4btn").clientWidth;
-		var c5btnWidth = document.querySelector("ul.topnav li a.c5btn").clientWidth;
-		var aboutbtnWidth = document.querySelector("ul.topnav li a.aboutbtn").clientWidth;
-		var comboWidth = homebtnWidth+newsbtnWidth+c12btnWidth+c6btnWidth+c3btnWidth+c4btnWidth+c5btnWidth+aboutbtnWidth;
-		alert(comboWidth);
-		
-		var overallWidth = document.querySelector("ul.topnav").clientWidth;
-		alert(overallWidth);
-		
-		var intViewportWidth = document.body.clientWidth;
-		alert(intViewportWidth);
-		
-		//var intViewportWidtho = window.outerWidth;
-		//alert(intViewportWidtho);
-		
-		if (overallWidth < (comboWidth+2*padding)){
-			alert('2 lines');
-		}
-		
+	if (document.body.clientWidth <= criticalBodyWidth){
+		document.querySelector("ul.topnav").style.display = "none";
+		document.querySelector("ul.droptopnav").style.display = "block";
+	}else{
+		document.querySelector("ul.topnav").style.display = "block";
+		document.querySelector("ul.droptopnav").style.display = "none";
+	}
 }
+
+function getinitsize(){
+	var padding = parseInt(window.getComputedStyle(document.querySelector("ul.topnav")).getPropertyValue('padding'),10);
+	var margin = parseInt(window.getComputedStyle(document.querySelector("ul.topnav")).getPropertyValue('margin'),10);
+	var lichildren = document.querySelector("ul.topnav").children;
+	var linum = lichildren.length;
+	var lilenarr = new Array(linum)
+	var i;
+	for (i = 0; i < linum; i++) { 
+		lilenarr[i] = lichildren[i].clientWidth;
+	}
+	criticalBodyWidth = lilenarr.reduce(getSum)+2*padding+2*margin;
+	resize();
+}
+
+function getSum(total, num) {
+	return total + num;
+}
+
+var criticalBodyWidth;
 window.onresize = resize;
-window.onload = resize;
+
