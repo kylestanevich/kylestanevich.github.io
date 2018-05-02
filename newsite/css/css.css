@@ -9,7 +9,7 @@ ul.topnav, ul.droptopnav {
 	background-color: #333;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
-	top: 0px;
+	top: -1px; /* Better for Mobile */
 }
 
 .clearfix::after {
@@ -66,19 +66,92 @@ ul.droptopnav li:hover div.droplist {
 	display: inline;
 }
 
-div.fullpage {
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	justify-content: center;
 	width: 100%;
 	min-height: 100vh;
+	align-items: center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.center {
-	text-align: center;
+.column3, .column2, .column1 {
+	flex: 100%;
 }
 
-.box {
-	display: inline-block;
+.picturebox, .textbox {
+	padding: 10px;
+}
+
+.textbox {
+	background: rgba(255,255,255,0.35);
+	margin: 10px;
+}
+
+div.box200 {
+	background-color: lime;
+	margin: 10px;
+	height: 100px;
+	min-width: 50px;
 }
 
 #google_map {
 	height: 500px;
 }
+
+#welcome {
+	background-image: url("../img/space.jpg");
+}
+
+#bio {
+	background-image: url("../img/plane.jpg");
+}
+
+#edu {
+	background-image: url("../img/earth.jpg");
+}
+
+#research {
+	background-image: url("../img/iss.jpg");
+}
+
+#resume {
+	background-image: url("../img/drone.jpg");
+}
+
+#contact {
+	background-image: url("../img/rocket.jpg");
+}
+
+.picturebox img {
+	width: 100%;
+}
+
+
+
+@media (min-width: 500px) {
+	.column3, .column2 {
+		flex: 50%;
+		max-width: 50%;
+	}
+	.column1 div.box200 {
+		margin: 10px 10vw;
+	}
+}
+
+@media (min-width: 700px) {
+	.column3 {
+		flex: 33.3%;
+		max-width: 33.3%;
+	}
+	.column1 div.box200 {
+		margin: 10px 20vw;
+	}
+}
+
+
