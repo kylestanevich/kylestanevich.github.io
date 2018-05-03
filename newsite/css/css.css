@@ -1,5 +1,7 @@
 body {
 	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
 }
 
 ul.topnav, ul.droptopnav {
@@ -69,7 +71,8 @@ ul.droptopnav li:hover div.droplist {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0;
+	padding-top: 50px;
+	padding-bottom: 0px;
 	justify-content: center;
 	width: 100%;
 	min-height: 100vh;
@@ -88,9 +91,14 @@ ul.droptopnav li:hover div.droplist {
 	padding: 10px;
 }
 
+.picturebox img {
+	width: 100%;
+}
+
 .textbox {
-	background: rgba(255,255,255,0.35);
+	background: rgba(0,0,0,0.25);
 	margin: 10px;
+	color: white;
 }
 
 div.box200 {
@@ -100,8 +108,16 @@ div.box200 {
 	min-width: 50px;
 }
 
-#google_map {
-	height: 500px;
+#home {
+	max-height: 40vh;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+
+#home img {
+	width: 100%;
 }
 
 #welcome {
@@ -128,18 +144,16 @@ div.box200 {
 	background-image: url("../img/rocket.jpg");
 }
 
-.picturebox img {
-	width: 100%;
+#map {
+	height: 500px;
 }
-
-
 
 @media (min-width: 500px) {
 	.column3, .column2 {
 		flex: 50%;
 		max-width: 50%;
 	}
-	.column1 div.box200 {
+	.column1 div.textbox {
 		margin: 10px 10vw;
 	}
 }
@@ -149,9 +163,21 @@ div.box200 {
 		flex: 33.3%;
 		max-width: 33.3%;
 	}
-	.column1 div.box200 {
+	.column1 div.textbox {
 		margin: 10px 20vw;
 	}
 }
 
+hr { 
+    display: block;
+    border: 2px solid;
+    border-color: rgba(255,255,255,0.5);
+} 
 
+.textbox a:link, .textbox a:visited { 
+    color: white;
+}
+
+.textbox a:link:active, .textbox a:visited:active { 
+    color: cyan;
+}
