@@ -33,23 +33,29 @@
 	<li><a class="c6btn" href="#bio">Bio</a></li>
 	<li><a class="aboutbtn" href="#edu">Education</a></li>
 	<li><a class="c12btn" href="#research">Research</a></li>
+	<li><a class="c1btn" href="#proj">Projects</a></li>
+	<li><a class="c2btn" href="#skills">Skills</a></li>
+	<li><a class="c5btn" href="#act">Activities</a></li>
 	<li><a class="c3btn" href="#resume">Resume</a></li>
 	<li><a class="c4btn" href="#contact">Contact</a></li>
-	<li><a class="c5btn" href="#map">Map</a></li>
+	<!-- <li><a class="c5btn" href="#map">Map</a></li> -->
 </ul>
 
 <ul class="droptopnav clearfix">
 	<li>
-		<a class="dropbtn">Dropdown</a>
+		<a class="dropbtn">&#9776; Menu</a>
 		<div class="droplist">
 			<a class="homebtn" href="#home">Home</a>
 			<a class="newsbtn" href="#welcome">Welcome</a>
 			<a class="c6btn" href="#bio">Bio</a>
 			<a class="aboutbtn" href="#edu">Education</a>
 			<a class="c12btn" href="#research">Research</a>
+			<a class="c1btn" href="#proj">Projects</a>
+			<a class="c2btn" href="#skills">Skills</a>
+			<a class="c5btn" href="#act">Activities</a>
 			<a class="c3btn" href="#resume">Resume</a>
 			<a class="c4btn" href="#contact">Contact</a>
-			<a class="c5btn" href="#map">Map</a>
+			<!-- <a class="c5btn" href="#map">Map</a> -->
 		</div>
 	</li>
 </ul>
@@ -61,17 +67,33 @@
 
 
 <div id="welcome" class="row">
+
+	<!-- add id="num" to every element within. add modaltrig to textbox class. -->
 	<div class="column1">
-		<div class="textbox" style="text-align: center;">
-			<h1>
+		<div class="textbox modaltrig" style="text-align: center;" id="1">
+			<h1 id="1">
 				Welcome to Kyle's Website
 			</h1>
-			<hr>
-			<h3>
-				Have a look around!
+			<hr id="1">
+			<h3 id="1">
+				Want more details about a certain topic? Just click on the textbox!
 			</h3>
 		</div>
 	</div>
+	
+	<!-- modal template. replace modal1 with modal(num) using num from above. -->
+	<div id="modal1" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h1>
+				Welcome!
+			</h1>
+			<p>
+				Almost all textboxes on this page can be clicked on. A pop-up like this will provide more details about the topic. Pop-ups can be closed by clicking on the X or anywhere outside the pop-up.
+			</p>
+		</div>
+	</div>
+	
 </div>
 
 
@@ -87,14 +109,25 @@
 		</div>
 	</div>
 	<div class="column2">
-		<div class="textbox">
-			<h1>
+		<div class="textbox modaltrig" id="2">
+			<h1 id="2">
 				Bio
 			</h1>
-			<hr>
-			<h3>
-				I am working toward my Master's Degree in Aerospace Engineering at the University of Illinois at Urbana-Champaign. I got my Bachelor's in Aerospace Engineering from the same school in May 2017.
+			<hr id="2">
+			<h3 id="2">
+				I got my Master's Degree (Aug 2018) and my Bachelor's Degree (May 2017) both in Aerospace Engineering from the University of Illinois at Urbana-Champaign.
 			</h3>
+		</div>
+	</div>
+	<div id="modal2" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h1>
+				About me
+			</h1>
+			<p>
+				I am an Aerospace Engineer with a Master's Degree from UIUC. I have worked on electric propulsion, fusion, UAVs, systems engineering, wind tunnels, and jet engines.
+			</p>
 		</div>
 	</div>
 </div>
@@ -109,42 +142,95 @@
 		<div class="picturebox">
 			<img src="./img/uiuc.png" title="Hover Text" alt="describe picture">
 		</div>
-		<div class="textbox">
+		<div class="textbox modaltrig" id="3">
+			<h1 id="3">
+				UIUC
+			</h1>
+			<hr id="3">
+			<h3 id="3">
+				I got both my Master's and Bachelor's Degree in Aerospace Engineering from here.
+			</h3>
+		</div>
+	</div>
+	<div id="modal3" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
 			<h1>
 				UIUC
 			</h1>
-			<hr>
-			<h3>
-				I am currently working toward my Master's Degree in Aerospace Engineering here. I got my Aerospace Bachelor's Degree from here.
-			</h3>
+			<p>
+				Here is a list of topics that I studied:
+			</p>
+			<li>electric propulsion</li>
+			<li>UAV / quadrotor</li>
+			<li>control systems</li>
+			<li>combustion</li>
+			<li>systems engineering</li>
+			<li>computational fluid dynamics (CFD)</li>
+			<li>finite element analysis (FEA)</li>
+			<li>computer aided design (CAD)</li>
+			<li>solid mechanics</li>
+			<li>non-linear elasticity</li>
+			<li>orbital mechanics</li>
+			<li>composites</li>
+			<li>aerospace propulsion</li>
 		</div>
 	</div>
 	<div class="column3">
 		<div class="picturebox">
 			<img src="./img/iit.png" title="Hover Text" alt="describe picture">
 		</div>
-		<div class="textbox">
+		<div class="textbox modaltrig" id="4">
+			<h1 id="4">
+				IIT
+			</h1>
+			<hr id="4">
+			<h3 id="4">
+				Studied Aerospace Engineering here for 3 semesters on a full scholarship.
+			</h3>
+		</div>
+	</div>
+	<div id="modal4" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
 			<h1>
 				IIT
 			</h1>
-			<hr>
-			<h3>
-				Studied Aerospace Engineering here for 3 semesters on a full scholarship.
-			</h3>
+			<p>
+				Here is a list of topics that I studied:
+			</p>
+			<li>fluid mechanics</li>
+			<li>thermodynamics</li>
+			<li>statics / dynamics</li>
+			<li>FMEA</li>
+			<li>six sigma</li>
+			<li>material science</li>
+			<li>electricity and magnetism</li>
 		</div>
 	</div>
 	<div class="column3">
 		<div class="picturebox">
 			<img src="./img/imsa.png" title="Hover Text" alt="describe picture">
 		</div>
-		<div class="textbox">
+		<div class="textbox modaltrig" id="5">
+			<h1 id="5">
+				IMSA
+			</h1>
+			<hr id="5">
+			<h3 id="5">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+	</div>
+	<div id="modal5" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
 			<h1>
 				IMSA
 			</h1>
-			<hr>
-			<h3>
-				High School for gifted students in Illinois.
-			</h3>
+			<p>
+				IMSA (Illinois Mathematics and Science Academy) is a public, boarding, college prep high school. It proved to be the hardest intellectual challenge that I have faced, more so than college. I am constantly seeking out challenges that will push me further than IMSA.
+			</p>
 		</div>
 	</div>
 </div>
@@ -155,47 +241,453 @@
 
 <div id="research" class="row">
 	<div class="column1">
-		<div class="textbox">
-			<h1>
+		<div class="textbox modaltrig" id="6">
+			<h1 id="6">
 				HIIPER
 			</h1>
-			<hr>
-			<h3>
+			<hr id="6">
+			<h3 id="6">
 				<a href="https://www.ideals.illinois.edu/search?query=HIIPER" target="_blank">HIIPER</a> stands for Helicon Injected Inertial Plasma Electrostatic Rocket. I was a research assistant working with PhD student Drew Ahern and <a href="https://npre.illinois.edu/directory/faculty/ghmiley" target="_blank">Dr. George H. Miley</a>. I would like to work on experimental electric space propulsion like this in the future.
 			</h3>
-			<h3>
+			<h3 id="6">
 				<a href="./docs/hiiper.pdf" target="_blank">View Publication</a>
 			</h3>
 		</div>
-		<div class="textbox">
-			<h1>
+		<div id="modal6" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					HIIPER
+				</h1>
+				<p>
+					This was my first college research lab that I worked in. The goal was to develop a novel method of electric propulsion for spacecraft. The general design was a modified fusor with an asymmetry in the IEC grid that would produce a stream of plasma. The IEC grid was fed with ions from a Helicon plasma source.
+				</p>
+				<p>
+					In this lab I learned how to operate the test equipment which included vacuum equipment, power supplies, oscilloscopes, function generators, and compressed gas cylinders. For data collection and analytics, I used LabView, excel, and Matlab. I used Comsol to run multiphysics simulations.
+				</p>
+				<p>
+					One of my major projects was the creation of a thrust sensor that would operate within the vacuum chamber. My initial design was an impact plate connected to a lever arm and stress concentrator. Strain gauges were mounted on the stress concentrator in a Wheatstone bridge configuration. Calibration determined the relation between strain gauge readings and impact force. I modified this design to replace the strain gauges with laser interferometry displacement system in order to get more precise measurements.
+				</p>
+				<p>
+					Another of my major projects was the refurbishment of the Helicon coil used to create plasma. The old coil was misaligned and could only be run in short bursts before overheating. I recreated the coil using larger copper wire to prevent overheating and a better mounting system to ensure the structure would not shift over time. The new coil better integrated with the matching network and RF power supply to have less than 1% reflected power under full operation.
+				</p>
+			</div>
+		</div>
+		<div class="textbox modaltrig" id="7">
+			<h1 id="7">
 				CPMI
 			</h1>
-			<hr>
-			<h3>
-				<a href="http://cpmi.illinois.edu/about-cpmi/" target="_blank">CPMI</a> stands for Center for Plasma-Material Interactions. I am a lab assistant working with Graduate student Michael Christenson. I work on multiple projects at CPMI. <a href="http://cpmi.illinois.edu/2009/02/27/devex-divertor-edge-and-vapor-shielding-experiment/" target="_blank">DEVeX</a> is the project I am most involved with.
+			<hr id="7">
+			<h3 id="7">
+				<a href="http://cpmi.illinois.edu/about-cpmi/" target="_blank">CPMI</a> stands for Center for Plasma-Material Interactions. I was a lab assistant working with Graduate student Michael Christenson. I worked on multiple projects at CPMI. <a href="http://cpmi.illinois.edu/2009/02/27/devex-divertor-edge-and-vapor-shielding-experiment/" target="_blank">DEVeX</a> is the project I was most involved with.
 			</h3>
-			<h3>
+			<h3 id="7">
 				<a href="./docs/cpmi.pdf" target="_blank">View Publication</a>
 			</h3>
 		</div>
-		<div class="textbox">
-			<h1>
+		<div id="modal7" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					CPMI
+				</h1>
+				<p>
+					My work in the fusion lab started on the DEVeX machine, a plasma cannon used to simulate conditions within a fusion reactor. I later began working on all other machines in the lab including a tokamak and a liquid and vapor deposition machine.
+				</p>
+				<p>
+					One of my projects was to implement an electrical cutoff system to prevent the capacitors from charging and dump their energy when the door was open or if any piece of equipment was not powered on correctly. I soldered the circuitry and installed it in custom electrical enclosures. 
+				</p>
+				<p>
+					Another project of mine was working with Dr. Mike Jaworski from PPPL to qualify lithium as a wall material to be used inside fusion reactors. I used a liquid and vapor deposition machine to create lithium filled metallic sponges with molybdenum coating. These were analyzed in the DEVeX machine using a laser imaging system to capture images of when the plasma ball impacted the samples.
+				</p>
+				<p>
+					While working in the lab, I learned many plasma physics concepts and lab safety techniques. I was also exposed to test procedure writing because each machine in the lab had a very specific set of instructions that were constantly being updated as the machines changed.
+				</p>
+			</div>
+		</div>
+		<div class="textbox modaltrig" id="8">
+			<h1 id="8">
 				Energy Generating Bikes
 			</h1>
-			<hr>
-			<h3>
+			<hr id="8">
+			<h3 id="8">
 				At IMSA, I participated in <a href="https://www.imsa.edu/academics/inquiry" target="_blank">SIR</a>, a program that lets students research topics they find interesting. I researched Energy Generating Bikes, how to engineer them and motivations to use them. I worked under the supervision of William Gentzler and Branson Lawrence.
 			</h3>
-			<h3>
+			<h3 id="8">
 				<a href="./docs/sir.pdf" target="_blank">View Final Paper</a>
 			</h3>
-			<h3>
+			<h3 id="8">
 				<a href="./docs/sir.jpg" target="_blank">View Poster</a>
 			</h3>
-			<h3>
+			<h3 id="8">
 				<a href="./docs/cpmi.pptm" target="_blank">Download Presentation</a>
 			</h3>
+		</div>
+		<div id="modal8" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					Energy Generating Bikes
+				</h1>
+				<p>
+					My energy generating bike project was a from scratch research project that looked into the engineering challenges of building an energy generating stationary bike as well as the psychological impact of such a device. It was my first formal research experience including document writing, poster sessions, and public presentations. In addition, statistical testing was used to analyze the numerical data in order to verify correlations.
+				</p>
+				<p>
+					The first step was to build the bike. The purchasing department was slow to place an order for supplies and they were misplace after arrival. This wasted much of my budget and time therefore I had to deploy some creative engineering in order to build the bike. This part of the project was as much engineering as it was lesson in navigating a bureaucracy.
+				</p>
+				<p>
+					The second step was the analyze the impact of the bike on the students and faculty. The bike was a combination of both fitness and environmentalism therefore I tested to see if these factors would be amplified when combined. To do this, I distributed surveys across campus and ran the results through a series of statistical tests that either proved or rejected my null-hypotheses.
+				</p>
+				<p>
+					Finally, I wrote a publishable research paper detailing my process and results. In addition, I created a poster and a powerpoint that I presented publicly. This gave me writing and public speaking experience.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+<!-- new stuff -->
+<div id="proj" class="row">
+	<div class="column3">
+		<div class="textbox modaltrig" id="9">
+			<h1 id="9">
+				Mars Mission
+			</h1>
+			<hr id="9">
+			<h3 id="9">
+				2 semester long Systems Engineering project to propose a manned Mars mission for under $5 billion
+			</h3>
+		</div>
+		<div id="modal9" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					Manned Mars Mission
+				</h1>
+				<p>
+					The goal of the project was to create a proposal to send humans to Mars for under $5 billion. I was the team lead for this project therefore it was my duty to schedule team meetings, communicate between my teammates and the professor, act as a unifying voice when writing reports, and resolve team conflicts. In addition, I was the structural subsystem engineer in charge of the living quarters, radiation and debris shielding, and return capsule.
+				</p>
+				<p>
+					The core focus of this project was on systems engineering, especially on determining requirements based on stakeholder goals and refining the design using risk analysis. The NASA systems engineering guidebook played an irreplaceable part in this project, teachine me most of what I know about systems engineering.
+				</p>
+				<p>
+					My teammates and I scored an A on this project for both semesters. After the class, I submitted the project to the AIAA national design competition for 2017 in which it won third place. 
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="10">
+			<h1 id="10">
+				UAV
+			</h1>
+			<hr id="10">
+			<h3 id="10">
+				I have studied UAVs in the classroom, in computer simulaiton, and on physical quadrotors
+			</h3>
+		</div>
+		<div id="modal10" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					UAV
+				</h1>
+				<p>
+					I have studied and practiced theory, design, programming, and deployment of UAVs in both the classroom and lab environment. This included classes on control systems, quadrotor lab, and fixed wing UAV design and analysis.
+				</p>
+				<p>
+					In my control systems classes I learned modern control using cost minimization from a state based approach. I can translate this into traditional PID control but this approach provides more flexibility and better system understanding. In addition, I learned distributed system control, the application of control over multiple controllers with limited communication. This has applications in quadrotor arrays and autonomous driving.
+				</p>
+				<p>
+					I applied that theory to create physical and simulated quadrotors. I wrote control systems code in C++ that would create an optimal trajectory for a quadrotor while avoiding obstacles and adapting to changing conditions. The code was run on the computer simulation to qualify it before deployment. The code was put onto a physical quadrotor after the major bugs were worked out. The quadrotor was fitted with a carrying department and a QR code scanner and given the task to deliver coffee. Thus, the Coffee Coptor was born.
+				</p>
+				<p>
+					In addition to quadrotors, I tested many fixed wing UAV components in a wind tunnel. This included 3D printing commonly used UAV NACA airfoils and testing for flight characteristics and performance testing a SR-30 turbojet.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="11">
+			<h1 id="11">
+				Newspaper
+			</h1>
+			<hr id="11">
+			<h3 id="11">
+				I wrote for TechNews, the student newspaper at IIT
+			</h3>
+		</div>
+		<div id="modal11" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					TechNews - student newspaper at IIT
+				</h1>
+				<p>
+					Working for the student newspaper was my favorite job even though spelling and grammar have never been my strong suit. I started as a temporary writer but soon became a staff writer due to my large volume of articles. I covered everything from Chicago events, to restaurants, to tech reviews. Every week I would have at least one article in the paper, usually written as “adventures with Kyle.”
+				</p>
+				<p>
+					I was able to increase my involvement with the newspaper as the business manager. Not only did I write articles but I also managed the ad space for the paper and collected money from the advertisers. I was responsible for paying the writers and staff and any extra money I saved for a staff party at an upscale Chicago restaurant.
+				</p>
+				<p>
+					I have a passion for writing and adventuring. The newspaper was able to harness this passion and put it to good use. It was also a way to get involved with the politics at IIT. I gained a position in student government, met with the president and provost to voice my concerns, and even hosted a radio show.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="12">
+			<h1 id="12">
+				SAE
+			</h1>
+			<hr id="12">
+			<h3 id="12">
+				I designed the Baja chasis for the IIT SAE team
+			</h3>
+		</div>
+		<div id="modal12" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					SAE
+				</h1>
+				<p>
+					I was the Baja chassis designer for the IIT SAE team. In order to expand my library of known CAD software I challenged myself to use Autodesk Inventor to design the tube frame from scratch. My design went through many revisions as I ensured that it met the SAE competition requirements and catered to the needs of each of the other sub-systems.
+				</p>
+				<p>
+					I was not at IIT long enough to undertake the physical construction of the frame, but I did learn how to weld in preparation for construction. I build the rigs that would later be used to hold the frame in place as it was being welded. Years later, I revisited the SAE shop at IIT to see my constructed frame hanging from the shop ceiling. It was decommissioned after its use in competition (you cannot reuse old designs in SAE competitions). 
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="13">
+			<h1 id="13">
+				Ethics
+			</h1>
+			<hr id="13">
+			<h3 id="13">
+				This is another passion of mine originating from a high school ethics class
+			</h3>
+		</div>
+		<div id="modal13" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					Ethics
+				</h1>
+				<p>
+					My interest in ethics was stoked by an ethics class during my junior year in high school. I liked it so much that I helped to teach that class the following year. I studied multiple systems of ethics in order to create handouts and prepare lectures, a process that helped solidify my understanding of ethics.
+				</p>
+				<p>
+					In college, I continued my interest by joining the ethics bowl team, an intercollegiate debate group focused on ethics. The diversity of my teammates deepened my ethics knowledge and the debates helped to develop my public speaking.
+				</p>
+				<p>
+					I have continued to learn more about ethics. Recently I have explored the links between ethics and religion as well as the importance of ethics in engineering.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="14">
+			<h1 id="14">
+				Eagle Scout
+			</h1>
+			<hr id="14">
+			<h3 id="14">
+				Boy Scouts, Leadership, Eagle Scout Project
+			</h3>
+		</div>
+		<div id="modal14" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					Eagle Scout
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="15">
+			<h1 id="15">
+				Raspberry Pi
+			</h1>
+			<hr id="15">
+			<h3 id="15">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal15" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="16">
+			<h1 id="16">
+				Passive Walker
+			</h1>
+			<hr id="16">
+			<h3 id="16">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal16" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="17">
+			<h1 id="17">
+				EWB
+			</h1>
+			<hr id="17">
+			<h3 id="17">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal17" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="18">
+			<h1 id="18">
+				IMSA Engineering
+			</h1>
+			<hr id="18">
+			<h3 id="18">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal18" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="19">
+			<h1 id="19">
+				Tesla Coil
+			</h1>
+			<hr id="19">
+			<h3 id="19">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal19" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="20">
+			<h1 id="20">
+				Air Cannon
+			</h1>
+			<hr id="20">
+			<h3 id="20">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal20" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="21">
+			<h1 id="21">
+				Model Rockets
+			</h1>
+			<hr id="21">
+			<h3 id="21">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal21" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="22">
+			<h1 id="22">
+				Go Kart
+			</h1>
+			<hr id="22">
+			<h3 id="22">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal22" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -205,16 +697,333 @@
 
 
 
+<div id="skills" class="row">
+	<div class="column3">
+		<div class="textbox modaltrig" id="23">
+			<h1 id="23">
+				CAD
+			</h1>
+			<hr id="23">
+			<h3 id="23">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal23" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="24">
+			<h1 id="24">
+				Simulation
+			</h1>
+			<hr id="24">
+			<h3 id="24">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal24" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="25">
+			<h1 id="25">
+				Programming
+			</h1>
+			<hr id="25">
+			<h3 id="25">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal25" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="26">
+			<h1 id="26">
+				Linux
+			</h1>
+			<hr id="26">
+			<h3 id="26">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal26" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="27">
+			<h1 id="27">
+				Video Editing
+			</h1>
+			<hr id="27">
+			<h3 id="27">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal27" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="28">
+			<h1 id="28">
+				Photoshop
+			</h1>
+			<hr id="28">
+			<h3 id="28">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal28" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="29">
+			<h1 id="29">
+				Languages
+			</h1>
+			<hr id="29">
+			<h3 id="29">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal29" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="30">
+			<h1 id="30">
+				Leadership
+			</h1>
+			<hr id="30">
+			<h3 id="30">
+				High School for gifted students in.
+			</h3>
+		</div>
+		<div id="modal30" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+<div id="act" class="row">
+	<div class="column3">
+		<div class="textbox modaltrig" id="31">
+			<h1 id="31">
+				Fermilab
+			</h1>
+			<hr id="31">
+			<h3 id="31">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal31" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="32">
+			<h1 id="32">
+				Cross Country
+			</h1>
+			<hr id="32">
+			<h3 id="32">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal32" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="33">
+			<h1 id="33">
+				Ultimate Frisbee
+			</h1>
+			<hr id="33">
+			<h3 id="33">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal33" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="34">
+			<h1 id="34">
+				Discovery Center
+			</h1>
+			<hr id="34">
+			<h3 id="34">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal34" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="column3">
+		<div class="textbox modaltrig" id="35">
+			<h1 id="35">
+				Summer Sleuths (IMSA)
+			</h1>
+			<hr id="35">
+			<h3 id="35">
+				High School for gifted students in Illinois.
+			</h3>
+		</div>
+		<div id="modal35" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end new stuff -->
+
+
+
+
+
+
+
+
 <div id="resume" class="row">
 	<div class="column1">
-		<div class="textbox">
-			<h1>
+		<div class="textbox modaltrig" id="36">
+			<h1 id="36">
 				Resume
 			</h1>
-			<hr>
-			<h3>
+			<hr id="36">
+			<h3 id="36">
 				<a href="./docs/resume.pdf" target="_blank">View Resume</a>
 			</h3>
+		</div>
+		<div id="modal36" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -225,23 +1034,34 @@
 
 <div id="contact" class="row">
 	<div class="column1">
-		<div class="textbox">
-			<h1>
+		<div class="textbox modaltrig" id="37">
+			<h1 id="37">
 				Contact
 			</h1>
-			<hr>
-			<h3>
+			<hr id="37">
+			<h3 id="37">
 				<a href="https://www.linkedin.com/in/kyle-stanevich-07b38a89" target="_blank">LinkedIn</a>
 			</h3>
-			<h3>
+			<h3 id="37">
 				<a href="mailto:stanevi2@illinois.edu">School E-Mail</a>
 			</h3>
-			<h3>
+			<h3 id="37">
 				<a href="mailto:kylestanevich@gmail.com">Personal E-Mail</a>
 			</h3>
-			<h3>
+			<h3 id="37">
 				<a href="mailto:kyle@empod.com">Business E-Mail</a>
 			</h3>
+		</div>
+		<div id="modal37" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h1>
+					d
+				</h1>
+				<p>
+					d
+				</p>
+			</div>
 		</div>
 	</div>
 </div>
@@ -262,7 +1082,7 @@
 
 
 <!-- google map -->
-<div id="map"></div>
+<!-- <div id="map"></div> -->
 
 <!-- footer -->
 <footer>

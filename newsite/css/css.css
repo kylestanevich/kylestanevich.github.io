@@ -140,6 +140,18 @@ div.box200 {
 	background-image: url("../img/drone.jpg");
 }
 
+#proj {
+	background-image: url("../img/mountain.jpg");
+}
+
+#skills {
+	background-image: url("../img/eagleneb.jpg");
+}
+
+#act {
+	background-image: url("../img/camp.jpg");
+}
+
 #contact {
 	background-image: url("../img/rocket.jpg");
 }
@@ -180,4 +192,60 @@ hr {
 
 .textbox a:link:active, .textbox a:visited:active { 
     color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	text-shadow: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -137,9 +137,33 @@ function say(){
 	alert("1");
 }
 
-var sections = ["#home","#welcome","#bio","#edu","#research","#resume","#contact","#map"];
+var sections = ["#home","#welcome","#bio","#edu","#research","#proj","#skills","#act","#resume","#contact"];
 var secnum = sections.length;
 var maxheight;
 var criticalBodyWidth;
+
+document.onclick = function(e) {
+	e = e.target;
+	if (e.className && e.className.indexOf('modaltrig') != -1) {
+		var modal = document.getElementById('modal'+e.id);
+		modal.style.display = "block";
+	}
+	else if (e.parentElement.className && e.parentElement.className.indexOf('modaltrig') != -1) {
+		var modal = document.getElementById('modal'+e.id);
+		modal.style.display = "block";
+	}
+	else if (e.className && e.className.indexOf('close') != -1) {
+		var modal = document.getElementById(e.parentElement.parentElement.id);
+		if (modal != null) {
+			modal.style.display = "none";
+		}
+	}
+	else if (e.className && e.className.indexOf('modal') != -1) {
+		var modal = document.getElementById(e.id);
+		if (modal != null) {
+			modal.style.display = "none";
+		}
+	}
+}
 
 window.onresize = resize;
