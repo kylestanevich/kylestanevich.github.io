@@ -1,0 +1,255 @@
+body {
+	margin: 0;
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    background-color: #333;
+}
+
+.topnav, .droptopnav {
+	margin: 0px;
+	padding: 0px;
+	position: sticky;
+    top: 0;
+    display: flow-root;
+}
+
+@supports (backdrop-filter: none) {
+    .topnav, .droptopnav {
+        background-color: rgba(51,51,51,0.5);
+        backdrop-filter: blur(10px);
+    }
+}
+
+@supports not (backdrop-filter: none) {
+    .topnav, .droptopnav {
+        background-color: rgb(51,51,51);
+    }
+}
+
+.topnav li, .droptopnav li {
+	float: left;
+    list-style-type: none;
+}
+
+.topnav a, .droptopnav a {
+	color: white;
+	/* text-align: center; */
+	padding: 15px 15px;
+	text-decoration: none; /* removes underline */
+    display: block;
+}
+
+.topnav li:hover:not(.active) {
+	background-color: red;
+}
+
+.topnav li.active {
+	background-color: green;
+}
+
+.droplist {
+	display: none;
+	position: absolute;
+	background-color: grey;
+	min-width: 33%;
+}
+
+.droplist a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.droplist a:hover {
+	background-color: blue
+}
+
+.droptopnav li:hover div.droplist {
+	display: inline;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	justify-content: center;
+	width: 100%;
+	min-height: 100vh;
+	align-items: center;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.column3, .column2, .column1 {
+	flex: 100%;
+}
+
+.picturebox, .textbox {
+	padding: 10px;
+}
+
+.picturebox img {
+	width: 100%;
+}
+
+.textbox {
+	background: rgba(0,0,0,0.25);
+	margin: 10px;
+	color: white;
+}
+
+div.box200 {
+	background-color: lime;
+	margin: 10px;
+	height: 100px;
+	min-width: 50px;
+}
+
+#home {
+	max-height: 40vh;
+	padding: 0;
+	margin: 0;
+	background-color: #333;
+	overflow: hidden;
+    display: flex;
+}
+
+#home img {
+	width: 100%;
+}
+
+#welcome {
+	background-image: url("../img/space.jpg");
+}
+
+#bio {
+	background-image: url("../img/plane.jpg");
+}
+
+#edu {
+	background-image: url("../img/earth.jpg");
+}
+
+#research {
+	background-image: url("../img/iss.jpg");
+}
+
+#resume {
+	background-image: url("../img/drone.jpg");
+}
+
+#proj {
+	background-image: url("../img/mountain.jpg");
+}
+
+#skills {
+	background-image: url("../img/eagleneb.jpg");
+}
+
+#act {
+	background-image: url("../img/camp.jpg");
+}
+
+#contact {
+	background-image: url("../img/rocket.jpg");
+}
+
+#map {
+	height: 500px;
+}
+
+@media (min-width: 500px) {
+	.column3, .column2 {
+		flex: 50%;
+		max-width: 50%;
+	}
+	.column1 div.textbox {
+		margin: 10px 10vw;
+	}
+}
+
+@media (min-width: 700px) {
+	.column3 {
+		flex: 33.3%;
+		max-width: 33.3%;
+	}
+	.column1 div.textbox {
+		margin: 10px 20vw;
+	}
+}
+
+hr { 
+    display: block;
+    border: 2px solid;
+    border-color: rgba(255,255,255,0.5);
+} 
+
+.textbox a:link, .textbox a:visited { 
+    color: white;
+}
+
+.textbox a:link:active, .textbox a:visited:active { 
+    color: cyan;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	text-shadow: none;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
