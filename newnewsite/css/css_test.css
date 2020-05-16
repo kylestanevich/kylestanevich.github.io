@@ -1,0 +1,81 @@
+
+/* notes */
+/* . is for class
+    example
+        [html] ... class="something" ...
+        [css] ... .something { ...
+*/
+/* # is for id
+    example
+        [html] ... id="something" ...
+        [css] ... #something { ...
+*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    min-height: 100%;
+    width: 100%;
+}
+
+#home {
+    display: flex;
+    max-height: 40%;
+    background-color: black;
+}
+
+#home img {
+    display: block;
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+#navbar {
+    position: sticky;
+    top: 0;
+}
+
+#navbar:hover nav {
+    display: flex;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+}
+
+a{
+    padding: 10px;
+    display: inline-block; /* inline is default */
+    text-decoration: none;
+    color: ivory;
+    text-align: center
+    
+}
+
+a:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+#extraspace {
+    height: 200vh;
+}
+
+
+
+

@@ -16,14 +16,14 @@
 	
 	<!-- JavaScript -->
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqqNYza21eIP4CwwNkcWa5fzRIXmSyRyI"></script> -->
-	<script type="text/javascript" src="js/js.js"></script>
+	<!-- <script type="text/javascript" src="js/js.js"></script> -->
 	
 </head>
 
 <body onscroll="navbarupdate()">
 
-<div id="home" class="header">
-	<!-- <img src="./img/action.png" title="experimenting with the coffee copter in the lab" alt="quadrotor action shot"> -->
+<div id="home" class="header" class="control-me">
+	<img src="./img/action.png" title="experimenting with the coffee copter in the lab" alt="quadrotor action shot">
 </div>
 
 
@@ -66,33 +66,42 @@
 
 
 <div id="welcome" class="row">
-
-	<!-- add id="num" to every element within. add modaltrig to textbox class. -->
+    
+    
+    
 	<div class="column1">
-		<div class="textbox modaltrig" style="text-align: center;" id="1">
-			<h1 id="1">
-				Welcome to Kyle's Website
-			</h1>
-			<hr id="1">
-			<h3 id="1">
-				Want more details about a certain topic? Just click on the textbox!
-			</h3>
+    
+		<div class="textbox" style="text-align: center;">
+        
+            <input type="radio" id="toggle" class="visually-hidden" name="radioname">
+            <label for="toggle">
+                <h1>
+                    Welcome to Kyle's Website
+                </h1>
+                <hr>
+                <h3>
+                    Want more details about a certain topic? Just click on the textbox!
+                </h3>
+            </label>
+            
+            <div class="control-me">
+                <input type="radio" id="untoggle" class="visually-hidden" name="radioname">
+                <label for="untoggle"></label>
+                <div class="popup-content">
+                    <span class="close">
+                        <label for="untoggle">&times;</label>
+                        <input type="radio" id="untoggle" class="visually-hidden" name="radioname">
+                    </span>
+                    my name is kyle
+                </div>
+            </div>
+            
 		</div>
+        
 	</div>
-	
-	<!-- modal template. replace modal1 with modal(num) using num from above. -->
-	<div id="modal1" class="modal">
-		<div class="modal-content">
-			<span class="close">&times;</span>
-			<h1>
-				Welcome!
-			</h1>
-			<p>
-				Almost all textboxes on this page can be clicked on. A pop-up like this will provide more details about the topic. Pop-ups can be closed by clicking on the X or anywhere outside the pop-up.
-			</p>
-		</div>
-	</div>
-	
+    
+
+    
 </div>
 
 

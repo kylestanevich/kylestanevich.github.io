@@ -1,75 +1,130 @@
 body {
-	margin: 0;
+    margin: 0;
     padding: 0;
-	font-family: Arial, Helvetica, sans-serif;
-	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px rgba(0,0,0,.5);
     background-color: #333;
 }
 
+
+
 .topnav, .droptopnav {
-	margin: 0px;
-	padding: 0px;
-	position: sticky;
+    margin: 0px;
+    padding: 0px;
+    position: sticky;
     top: 0;
     display: flow-root;
-}
-
-@supports (backdrop-filter: none) {
-    .topnav, .droptopnav {
-        background-color: rgba(51,51,51,0.5);
-        backdrop-filter: blur(10px);
-    }
-}
-
-@supports not (backdrop-filter: none) {
-    .topnav, .droptopnav {
-        background-color: rgb(51,51,51);
-    }
+    background-color: rgb(51,51,51);
+    z-index: 1;
 }
 
 .topnav li, .droptopnav li {
-	float: left;
+    float: left;
     list-style-type: none;
 }
 
 .topnav a, .droptopnav a {
-	color: white;
-	/* text-align: center; */
-	padding: 15px 15px;
-	text-decoration: none; /* removes underline */
+    color: white;
+    padding: 15px 15px;
+    text-decoration: none; /* removes underline */
     display: block;
 }
 
-.topnav li:hover:not(.active) {
-	background-color: red;
+.topnav li:hover {
+    background-color: red;
 }
 
 .topnav li.active {
-	background-color: green;
+    background-color: green;
 }
 
 .droplist {
-	display: none;
-	position: absolute;
-	background-color: grey;
-	min-width: 33%;
+    display: none;
+    position: absolute;
+    background-color: grey;
+    min-width: 33%;
 }
 
 .droplist a {
-	color: black;
-	padding: 12px 16px;
-	text-decoration: none;
-	display: block;
-	text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
 }
 
 .droplist a:hover {
-	background-color: blue
+    background-color: blue
 }
 
 .droptopnav li:hover div.droplist {
-	display: inline;
+    display: inline;
 }
+
+
+
+
+
+
+.control-me {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgb(0,0,0,.5);
+    overflow: auto;
+    text-shadow: none;
+}
+#toggle:checked ~ .control-me {
+    display: block;
+}
+.visually-hidden {
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    /* margin: auto; */
+    padding: inherit;
+    left: 0;
+    /* margin: 0; */
+    /* height: 100%; */
+    /* width: 100%; */
+    /* cursor: pointer; */
+}
+.popup-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+    color: black;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	/* text-shadow: 0px 0px 20px rgba(0,0,0,.5); */
+    /* position: absolute; */
+    display: block;
+    position: relative;
+    /* top: 0; */
+    /* right: 0; */
+}
+.close:hover, .close:focus {
+    color: black;
+    /* text-decoration: none; */
+    /* cursor: pointer; */
+}
+
+
+/* position: relative; */
+
+
+
 
 .row {
 	display: flex;
@@ -102,6 +157,8 @@ body {
 	background: rgba(0,0,0,0.25);
 	margin: 10px;
 	color: white;
+    position: relative;
+    /* cursor: pointer; */
 }
 
 div.box200 {
@@ -213,43 +270,3 @@ hr {
 
 
 
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-	text-shadow: none;
-}
-
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button */
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-	text-shadow: 0px 0px 20px rgba(0,0,0,.5);
-}
-
-.close:hover,
-.close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
