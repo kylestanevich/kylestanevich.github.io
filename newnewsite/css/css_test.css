@@ -11,6 +11,8 @@
         [css] ... #something { ...
 */
 
+/* -------------------------------------------------- */
+
 body, html {
     margin: 0;
     padding: 0;
@@ -18,12 +20,15 @@ body, html {
     background-color: #333;
     min-height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
+
+
 
 #home {
     display: flex;
-    max-height: 40%;
-    background-color: black;
+    max-height: 40vh;
+    background-color: #222;
 }
 
 #home img {
@@ -33,26 +38,34 @@ body, html {
     max-width: 100%;
 }
 
-
-
+/* -------------------------------------------------- */
 
 #navbar {
     position: sticky;
     top: 0;
+    background-color: #444;
+}
+
+#navbar .menubtn {
+    width: 100%;
+    padding: 10px 0;
+    color: ivory;
+    text-align: center
 }
 
 #navbar:hover nav {
     display: flex;
 }
 
-nav {
+#navbar nav {
     display: none;
     flex-direction: column;
     position: absolute;
     width: 100%;
+    background-color: #555;
 }
 
-a{
+#navbar nav a{
     padding: 10px;
     display: inline-block; /* inline is default */
     text-decoration: none;
@@ -61,8 +74,131 @@ a{
     
 }
 
-a:hover {
+#navbar nav a:hover {
     background-color: green;
+}
+
+/* -------------------------------------------------- */
+
+.testrow {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: center;
+}
+
+.testcol1 {
+    flex-basis: 100%;
+}
+
+.testcol2 {
+    flex-basis: 50%;
+}
+
+.testcol3 {
+    flex-basis: 33%;
+}
+
+.testcol {
+    flex-grow: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.testbox {
+    background-color: #999;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+/* -------------------------------------------------- */
+
+
+
+label {
+    width: 100%;
+    padding: 10px;
+}
+
+.testboxtxt {
+    width: 100%;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    opacity: 0.0;
+    margin: 0;
+}
+
+.visually-hidden:hover {
+    cursor: pointer;
+}
+
+.control-me {
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.control-me2 {
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.control-me, .control-me2 {
+    display: none;
+}
+
+
+
+#toggle:checked ~ .control-me, #toggle2:checked ~ .control-me2 {
+    display: block;
+}
+
+#imsatestid > #toggle:checked > .control-me {
+    display: block;
+}
+
+.close {
+    /* position: relative; */
+    text-align: right;
+    font-size: 200%;
+    font-weight: bold;
+    color: gray;
+}
+
+.close label:hover {
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+
+.popupbox {
+    margin: auto;
+    width: 80%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+    top: 15%;
+}
+
+.popuptxt {
+    padding: 10px;
 }
 
 
@@ -71,6 +207,58 @@ a:hover {
 
 
 
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
+
+p, h3 {
+    margin: 0;
+}
+
+hr {
+    height:5px;
+    border-width:0;
+    background-color:#666;
+}
+
+/* -------------------------------------------------- */
+
+@media screen and (max-width: 900px) {
+    .testcol3 {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .testcol2, .testcol3 {
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        padding: 0 10%;
+    }
+}
+
+/* -------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------- */
 
 #extraspace {
     height: 200vh;
