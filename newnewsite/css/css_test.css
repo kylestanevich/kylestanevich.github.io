@@ -21,6 +21,7 @@ body, html {
     min-height: 100%;
     width: 100%;
     box-sizing: border-box;
+    background-origin: border-box;
 }
 
 
@@ -44,6 +45,7 @@ body, html {
     position: sticky;
     top: 0;
     background-color: #444;
+    z-index: 1;
 }
 
 #navbar .menubtn {
@@ -84,9 +86,12 @@ body, html {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: stretch;
     align-content: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%; 
 }
 
 .testcol1 {
@@ -117,18 +122,20 @@ body, html {
 
 /* -------------------------------------------------- */
 
-
-
 label {
     width: 100%;
-    padding: 10px;
+    position: relative;
 }
 
 .testboxtxt {
     width: 100%;
 }
 
-label:hover {
+.boxtxt {
+    padding: 10px;
+}
+
+label:hover, input:hover {
     cursor: pointer;
 }
 
@@ -136,69 +143,70 @@ label:hover {
     position: absolute;
     opacity: 0.0;
     margin: 0;
-}
-
-.visually-hidden:hover {
-    cursor: pointer;
+    top: 0;
+    left: 0;
 }
 
 .control-me {
-    background-color: rgb(0,0,0,.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
-.control-me2 {
-    background-color: rgb(0,0,0,.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100vw;
-}
-
-.control-me, .control-me2 {
     display: none;
+    background-color: rgb(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
 }
 
-
-
-#toggle:checked ~ .control-me, #toggle2:checked ~ .control-me2 {
-    display: block;
-}
-
-#imsatestid > #toggle:checked > .control-me {
+.testbox > input:checked + div {
     display: block;
 }
 
 .close {
-    /* position: relative; */
     text-align: right;
     font-size: 200%;
     font-weight: bold;
     color: gray;
+    position: relative;
 }
 
 .close label:hover {
     color: white;
     background-color: red;
-    cursor: pointer;
 }
 
 .popupbox {
-    margin: auto;
     width: 80%;
+    margin: auto;
     background-color: white;
+    cursor: auto;
     position: relative;
-    /* z-index: 1; */
     top: 15%;
 }
 
 .popuptxt {
     padding: 10px;
+    max-height: calc(70vh - 3em);
+    overflow: auto;
+}
+
+/* -------------------------------------------------- */
+
+.testboximg {
+    padding: 10px;
+}
+
+.testboximg img {
+    display: block;
+    width: 100%;
+}
+
+/* -------------------------------------------------- */
+
+/* list the rest of the backgrounds here */
+
+#teststuffmoremoremore {
+    background-image: url("../img/space.jpg");
 }
 
 
@@ -207,7 +215,18 @@ label:hover {
 
 
 
+/* -------------------------------------------------- */
 
+
+
+
+
+footer {
+    padding: 10px;
+    text-align: right;
+    background-color: #000;
+    color: #987;
+}
 
 
 
@@ -220,6 +239,8 @@ label:hover {
 
 p, h3 {
     margin: 0;
+    word-break: break-word;
+    hyphens: auto;
 }
 
 hr {
@@ -243,7 +264,7 @@ hr {
 }
 
 @media screen and (min-width: 1200px) {
-    body {
+    .testrow {
         padding: 0 10%;
     }
 }
@@ -260,9 +281,6 @@ hr {
 
 /* -------------------------------------------------- */
 
-#extraspace {
-    height: 200vh;
-}
 
 
 
