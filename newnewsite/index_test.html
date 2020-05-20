@@ -12,15 +12,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 	
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="css/css_test.css"  />
+	<link rel="stylesheet" type="text/css" href="css/css_test.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet/dist/leaflet.css" referrerpolicy="no-referrer">
 	
 	<!-- JavaScript -->
-	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqqNYza21eIP4CwwNkcWa5fzRIXmSyRyI"></script> -->
-	<!-- <script type="text/javascript" src="js/js.js"></script> -->
+	<script src="js/js.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 	
 </head>
 
-<body onscroll="navbarupdate()">
+<body onresize="resize()">
 
 <div id="home">
 
@@ -579,7 +580,17 @@
 
 
 
-<!-- !!!!!!!!!!!!!!!!!!!! map !!!!!!!!!!!!!!!!!!!! -->
+
+<div id="mapid"></div>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -595,11 +606,11 @@
 
 
 
-<!-- <script> -->
-<!-- (function() { -->
-	<!-- init(); -->
-<!-- })(); -->
-<!-- </script> -->
+<script>
+(function() {
+	init();
+})();
+</script>
 
 </body>
 

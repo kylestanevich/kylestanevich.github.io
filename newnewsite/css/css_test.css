@@ -24,8 +24,6 @@ body, html {
     background-origin: border-box;
 }
 
-
-
 #home {
     display: flex;
     max-height: 40vh;
@@ -56,15 +54,17 @@ body, html {
 }
 
 #navbar:hover nav {
-    display: flex;
+    visibility: visible;
 }
 
 #navbar nav {
-    display: none;
+    display: flex;
+    visibility: hidden;
     flex-direction: column;
     position: absolute;
     width: 100%;
     background-color: #555;
+    flex-wrap: wrap;
 }
 
 #navbar nav a{
@@ -73,7 +73,6 @@ body, html {
     text-decoration: none;
     color: ivory;
     text-align: center
-    
 }
 
 #navbar nav a:hover {
@@ -211,15 +210,13 @@ label:hover, input:hover {
 
 
 
-
-
-
-
 /* -------------------------------------------------- */
 
+#mapid {
+    height: 50vh;
+}
 
-
-
+/* -------------------------------------------------- */
 
 footer {
     padding: 10px;
@@ -227,13 +224,6 @@ footer {
     background-color: #000;
     color: #987;
 }
-
-
-
-
-
-
-
 
 /* -------------------------------------------------- */
 

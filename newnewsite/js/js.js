@@ -1,108 +1,61 @@
 
-
 function init() {
-	//maps();
-	getinitsize();
-    document.querySelectorAll('body > div').forEach(push_ids_to_sections)
+    
+    navbar_init();
+    map_init();
+    
 }
 
-function push_ids_to_sections(item){
-    sections.push(item.id);
-}
-
-var sections = []
-
-function textboxheight(){
-	document.querySelectorAll(".row").forEach(eachrow);
-}
-
-function eachrow(item){
-	var textboxes = item.querySelectorAll(".textbox");
-	var len = textboxes.length;
-	if (len > 1){
-		maxheight = 0;
-		textboxes.forEach(resetheight);
-		textboxes.forEach(getheight);
-		textboxes.forEach(setheight);
-	}
-}
-
-function getheight(item){
-	var height = item.clientHeight;
-	if (height > maxheight){
-		maxheight = height;
-	}
-}
-
-function setheight(item){
-	item.style.height = maxheight + "px";
-}
-
-function resetheight(item){
-	item.style.height = "auto";
+function resize() {
+    
+    navbar_init();
+    
 }
 
 
 
-function getinitsize(){
-	var padding = parseInt(window.getComputedStyle(document.querySelector(".topnav")).getPropertyValue('padding'),10);
-	var margin = parseInt(window.getComputedStyle(document.querySelector(".topnav")).getPropertyValue('margin'),10);
-	var lichildren = document.querySelector(".topnav").children;
-	var linum = lichildren.length;
-	var lilenarr = new Array(linum)
-	var i;
-	for (i = 0; i < linum; i++) { 
-		lilenarr[i] = lichildren[i].clientWidth;
-	}
-	criticalBodyWidth = lilenarr.reduce(getSum)+2*padding+2*margin;
-	resize();
+function navbar_init() {
+    
+    nav_el = document.querySelector("nav");
+    navbutton_el = document.querySelector("nav [href='#home']");
+    
+    nav_el.removeAttribute("style");
+    
+    nav_el.style.flexDirection = "row";
+    
+	navheight = nav_el.clientHeight;
+    navbuttonheight = navbutton_el.clientHeight;
+    
+    if (navheight==navbuttonheight) {
+        nav_el.style.top = "0";
+        nav_el.style.left = "0";
+        nav_el.style.visibility = "visible";
+    } else {
+        nav_el.style.flexDirection = "column";
+    }
+    
 }
 
-function getSum(total, num) {
-	return total + num;
-}
 
-function resize(){
-	if (document.body.clientWidth <= criticalBodyWidth){
-		document.querySelector(".topnav").style.display = "none";
-		document.querySelector(".droptopnav").style.display = "flow-root";
-	}else{
-		document.querySelector(".topnav").style.display = "flow-root";
-		document.querySelector(".droptopnav").style.display = "none";
-	}
-	textboxheight();
-}
 
-function navbarupdate(){
-	var tempsecy;
-	var i;
-	var indexmin = 0;
-	var minsofar = 99999;
-	for (i = 0; i < secnum; i++) {
-		tempsecy = Math.abs(document.querySelector(sections[i]).getBoundingClientRect().y);
-		if (tempsecy < minsofar){
-			minsofar = tempsecy;
-			indexmin = i;
-		}
-	}
-    // console.log(sections[indexmin])
-	var activesec = document.querySelector("ul > li > .active");	
-	var newactivesec = document.querySelector("a[href='#" + sections[indexmin] + "']");
-	if (activesec.getAttribute("href") != sections[indexmin]){
-		activesec.classList.remove("active");
-		newactivesec.classList.add("active");
-	}
+function map_init() {
+    
+    var map = L.map('mapid',{}).setView([37.27530545,-102.39404495],4);
+    
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+    
+    var marker = L.marker([41.7869998,-88.3547522]).bindPopup('High School at IMSA').addTo(map);
+    var marker = L.marker([41.8348729,-87.6270061]).bindPopup('College at IIT').addTo(map);
+    var marker = L.marker([40.1019523,-88.2271615]).bindPopup('College at UIUC').addTo(map);
+    var marker = L.marker([32.715738,-117.1610838]).bindPopup('Engineer in San Diego').addTo(map);
+    
 }
 
 
 
 
 
-var secnum = sections.length;
-var maxheight;
-var criticalBodyWidth;
 
-
-
-window.onresize = resize;
 
