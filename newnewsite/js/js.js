@@ -4,6 +4,7 @@ function init() {
     navbar_init();
     map_init();
     head_img_blur_init();
+    createObserver();
     
 }
 function resize() {
@@ -83,10 +84,52 @@ function head_img_blur_resize() {
 
 
 
+function createObserver() {
+    
+    let levels = 50;
+    
+    let options = {
+        root: null,
+        rootMargin: "0px",
+        threshold: [ ...Array(levels+1).keys() ].map( i => i/levels)
+    };
+    
+    let observer = new IntersectionObserver(handleIntersect, options);
+    
+    let els = document.querySelectorAll("body > div");
+    let el;
+    for (el of els) {
+        if (el.id) {
+            observer.observe(el);
+        }
+    }
+    
+}
+function handleIntersect(entries, observer) {
+    
+    entries.forEach((entry) => {
+        
+        if (entry.intersectionRatio > 0) {
+            document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(0,128,0,",entry.intersectionRatio,")");
+            // document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.boxShadow = "".concat("0 10px 5px -5px rgba(0,128,0,",entry.intersectionRatio,")");
+        } else {
+            document.querySelector("".concat("a[href='#",entry.target.id,"']")).removeAttribute("style");
+        }
+        
+    });
+    
+}
+
+
+
 var nav_el
 var navbutton_el
 var navbuttonheight
 var head_img
 var head_img_blur
+
+
+
+document.addEventListener("DOMContentLoaded", init);
 
 

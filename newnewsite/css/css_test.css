@@ -40,25 +40,25 @@ body, html {
 
 /* -------------------------------------------------- */
 
-#navbar {
+.navbar {
     position: sticky;
     top: 0;
     background-color: #444;
     z-index: 1;
 }
 
-#navbar .menubtn {
+.navbar .menubtn {
     width: 100%;
     padding: 10px 0;
     color: ivory;
     text-align: center
 }
 
-#navbar:hover nav {
+.navbar:hover nav {
     visibility: visible;
 }
 
-#navbar nav {
+.navbar nav {
     display: flex;
     visibility: hidden;
     flex-direction: column;
@@ -68,7 +68,7 @@ body, html {
     flex-wrap: wrap;
 }
 
-#navbar nav a{
+.navbar nav a{
     padding: 10px;
     display: inline-block; /* inline is default */
     text-decoration: none;
@@ -76,8 +76,9 @@ body, html {
     text-align: center
 }
 
-#navbar nav a:hover {
-    background-color: green;
+.navbar nav a:hover {
+    /* background-color: green; */
+    text-decoration: underline overline;
 }
 
 /* -------------------------------------------------- */
