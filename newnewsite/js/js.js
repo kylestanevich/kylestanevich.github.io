@@ -6,6 +6,12 @@ function init() {
     head_img_blur_init();
     createObserver();
     
+    // document.querySelector("nav").addEventListener("click", function(){
+        // document.querySelector("nav").setAttribute('style', 'display:none;');
+        // setTimeout(function(){ qqq++ }, 3000);
+        // navbar_resize();
+    // });
+    
 }
 function resize() {
     
