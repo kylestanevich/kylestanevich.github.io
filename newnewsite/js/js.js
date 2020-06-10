@@ -6,12 +6,6 @@ function init() {
     head_img_blur_init();
     createObserver();
     
-    // document.querySelector("nav").addEventListener("click", function(){
-        // document.querySelector("nav").setAttribute('style', 'display:none;');
-        // setTimeout(function(){ qqq++ }, 3000);
-        // navbar_resize();
-    // });
-    
 }
 function resize() {
     
@@ -25,13 +19,20 @@ function resize() {
 function navbar_init() {
     
     nav_el = document.querySelector("nav");
-    navbutton_el = document.querySelector("nav [href='#home']");
-    navbuttonheight = navbutton_el.clientHeight;
+    navbuttonheight = document.querySelector("nav [href='#home']").clientHeight;
+    
+    try { //probably do not need this try catch statement, can delete later after testing
+        document.styleSheets[0].deleteRule(5);
+    } catch (err) {
+        //no need for a catch statement right now
+    }
     
     navbar_resize();
     
 }
 function navbar_resize() {
+    
+    is_phone_nav_old = is_phone_nav;
     
     nav_el.removeAttribute("style");
     
@@ -41,11 +42,64 @@ function navbar_resize() {
         nav_el.style.top = "0";
         nav_el.style.left = "0";
         nav_el.style.visibility = "visible";
+        is_phone_nav = false;
+        if (is_phone_nav_old) {
+            remove_js_hover();
+        }
     } else {
         nav_el.style.flexDirection = "column";
+        is_phone_nav = true;
+        if (!is_phone_nav_old) {
+            add_js_hover();
+        }
     }
     
 }
+function add_js_hover() {
+    
+    nb = document.querySelector(".navbar");
+    nb.addEventListener("click", nbh, false);
+    nb.addEventListener("mouseenter", nbh, false);
+    nb.addEventListener("mouseleave", nbh, false);
+    
+}
+function remove_js_hover() {
+    
+    nb = document.querySelector(".navbar");
+    nb.removeEventListener("click", nbh, false);
+    nb.removeEventListener("mouseenter", nbh, false);
+    nb.removeEventListener("mouseleave", nbh, false);
+    
+}
+function nbh(event) {
+    
+    switch(event.type) {
+        
+        case "click":
+            
+            if ((nav_el.style.visibility == "visible") & (!mouse_enter)) {
+                nav_el.style.visibility = "hidden";
+            } else {
+                nav_el.style.visibility = "visible";
+            }
+            break;
+            
+        case "mouseenter":
+            
+            nav_el.style.visibility = "visible";
+            mouse_enter = true;
+            setTimeout(function(){ mouse_enter = false; });
+            break;
+            
+        case "mouseleave":
+            
+            nav_el.style.visibility = "hidden";
+            break;
+            
+    }
+    
+}
+
 
 
 function map_init() {
@@ -128,11 +182,12 @@ function handleIntersect(entries, observer) {
 
 
 
-var nav_el
-var navbutton_el
-var navbuttonheight
-var head_img
-var head_img_blur
+var nav_el;
+var navbuttonheight;
+var head_img;
+var head_img_blur;
+var mouse_enter = false;
+var is_phone_nav = false;
 
 
 
