@@ -17,7 +17,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #333;
+    background-color: DimGray;
     min-height: 100%;
     width: 100%;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ body, html {
 #home {
     display: flex;
     max-height: 40vh;
-    background-color: #222;
+    background-color: DimGray;
 }
 
 #home img {
@@ -43,14 +43,14 @@ body, html {
 .navbar {
     position: sticky;
     top: 0;
-    background-color: #444;
+    background-color: DimGray;
     z-index: 1;
 }
 
 .navbar .menubtn {
     width: 100%;
     padding: 10px 0;
-    color: ivory;
+    color: Ivory;
     text-align: center
 }
 
@@ -64,7 +64,7 @@ body, html {
     flex-direction: column;
     position: absolute;
     width: 100%;
-    background-color: #555;
+    background-color: Gray;
     flex-wrap: wrap;
 }
 
@@ -72,12 +72,11 @@ body, html {
     padding: 10px;
     display: inline-block; /* inline is default */
     text-decoration: none;
-    color: ivory;
+    color: Ivory;
     text-align: center
 }
 
 .navbar nav a:hover {
-    /* background-color: green; */
     text-decoration: underline overline;
 }
 
@@ -103,6 +102,14 @@ body, html {
     flex-basis: 50%;
 }
 
+.testcol2_1 {
+    flex-basis: 33%;
+}
+
+.testcol2_2 {
+    flex-basis: 66%;
+}
+
 .testcol3 {
     flex-basis: 33%;
 }
@@ -114,7 +121,7 @@ body, html {
 }
 
 .testbox {
-    background-color: #999;
+    background-color: rgb(211,211,211,.75);
     margin: 10px;
     width: 100%;
     display: flex;
@@ -130,10 +137,13 @@ label {
 
 .testboxtxt {
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .boxtxt {
     padding: 10px;
+    width: 100%;
 }
 
 label:hover, input:hover {
@@ -167,7 +177,7 @@ label:hover, input:hover {
     text-align: right;
     font-size: 200%;
     font-weight: bold;
-    color: gray;
+    color: DimGray;
     position: relative;
 }
 
@@ -195,6 +205,8 @@ label:hover, input:hover {
 
 .testboximg {
     padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .testboximg img {
@@ -223,11 +235,15 @@ label:hover, input:hover {
 footer {
     padding: 10px;
     text-align: right;
-    background-color: #000;
-    color: #987;
+    background-color: DimGray;
+    color: Ivory;
 }
 
 /* -------------------------------------------------- */
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
 
 p, h3 {
     margin: 0;
@@ -238,7 +254,7 @@ p, h3 {
 hr {
     height:5px;
     border-width:0;
-    background-color:#666;
+    background-color: DimGray;
 }
 
 /* -------------------------------------------------- */
@@ -250,7 +266,7 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-    .testcol2, .testcol3 {
+    .testcol2, .testcol3, .testcol2_1, .testcol2_2 {
         flex-basis: 100%;
     }
 }
@@ -263,13 +279,41 @@ hr {
 
 /* -------------------------------------------------- */
 
+#welcome {
+	background-image: url("../img/space.jpg");
+}
 
+#bio {
+	background-image: url("../img/plane.jpg");
+}
 
+#edu {
+	background-image: url("../img/earth.jpg");
+}
 
+#research {
+	background-image: url("../img/iss.jpg");
+}
 
+#proj {
+	background-image: url("../img/mountain.jpg");
+}
 
+#skills {
+	background-image: url("../img/eagleneb.jpg");
+}
 
+#act {
+	background-image: url("../img/camp.jpg");
+}
 
+#resume {
+	background-image: url("../img/drone.jpg");
+}
+
+#contact {
+	background-image: url("../img/rocket.jpg");
+}
 
 /* -------------------------------------------------- */
 

@@ -170,7 +170,7 @@ function handleIntersect(entries, observer) {
     entries.forEach((entry) => {
         
         if (entry.intersectionRatio > 0) {
-            document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(0,128,0,",entry.intersectionRatio,")");
+            document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(95,158,160,",entry.intersectionRatio,")");
             // document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.boxShadow = "".concat("0 10px 5px -5px rgba(0,128,0,",entry.intersectionRatio,")");
         } else {
             document.querySelector("".concat("a[href='#",entry.target.id,"']")).removeAttribute("style");
