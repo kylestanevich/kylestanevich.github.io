@@ -102,16 +102,24 @@ body, html {
     flex-basis: 50%;
 }
 
-.testcol2_1 {
+.testcol3 {
     flex-basis: 33%;
 }
 
-.testcol2_2 {
+.testcol3_1 {
+    flex-basis: 33%;
+}
+
+.testcol3_2 {
     flex-basis: 66%;
 }
 
-.testcol3 {
-    flex-basis: 33%;
+.testcol4_1 {
+    flex-basis: 25%;
+}
+
+.testcol4_3 {
+    flex-basis: 75%;
 }
 
 .testcol {
@@ -263,10 +271,16 @@ hr {
     .testcol3 {
         flex-basis: 50%;
     }
+	.testcol4_1 {
+        flex-basis: 33%;
+    }
+	.testcol4_3 {
+        flex-basis: 66%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-    .testcol2, .testcol3, .testcol2_1, .testcol2_2 {
+    .testcol2, .testcol3, .testcol3_1, .testcol3_2, .testcol4_1, .testcol4_3 {
         flex-basis: 100%;
     }
 }
