@@ -170,7 +170,10 @@ function handleIntersect(entries, observer) {
     entries.forEach((entry) => {
         
         if (entry.intersectionRatio > 0) {
-            document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(95,158,160,",entry.intersectionRatio,")");
+            // document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(95,158,160,",entry.intersectionRatio,")");
+            // document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(95,158,160,",entry.intersectionRect.height/entry.rootBounds.height,")");
+            document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.backgroundColor = "".concat("rgba(95,158,160,",Math.max(entry.intersectionRatio,entry.intersectionRect.height/entry.rootBounds.height),")");
+            //Math.max(...) is used in the case when the element is larger than root. In this case, 'intersectionRatio' will be <1.0 because root shows only a piece of the element, not the entire element. To get around this the ratio 'intersectionRect/rootBounds' is introduced. 'intersectionRect' is the rectangle of element visiable in root. 'rootBounds' is the rectangle of root. The ratio will be 1.0 if element is larger than root and is the only object visiable in root. If element is smaller than root, even if element is entirely visiable, then the ratio will be <1.0. 
             // document.querySelector("".concat("a[href='#",entry.target.id,"']")).style.boxShadow = "".concat("0 10px 5px -5px rgba(0,128,0,",entry.intersectionRatio,")");
         } else {
             document.querySelector("".concat("a[href='#",entry.target.id,"']")).removeAttribute("style");

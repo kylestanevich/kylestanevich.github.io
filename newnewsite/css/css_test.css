@@ -91,7 +91,8 @@ body, html {
     align-content: center;
     background-size: cover;
     background-attachment: fixed;
-    background-position: 50%; 
+    background-position: 50%;
+    padding: calc(20px + 1em) 0;
 }
 
 .testcol1 {
@@ -287,7 +288,7 @@ hr {
 
 @media screen and (min-width: 1200px) {
     .testrow {
-        padding: 0 10%;
+        padding: calc(20px + 1em) 10%;
     }
 }
 
@@ -309,16 +310,12 @@ hr {
 	background-image: url("../img/iss.jpg");
 }
 
-#proj {
+#pursuits {
 	background-image: url("../img/mountain.jpg");
 }
 
-#skills {
+#saa {
 	background-image: url("../img/eagleneb.jpg");
-}
-
-#act {
-	background-image: url("../img/camp.jpg");
 }
 
 #resume {
