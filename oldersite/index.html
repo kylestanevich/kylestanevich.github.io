@@ -1,0 +1,323 @@
+﻿<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+    <title>Kyle Stanevich's Website</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="About Me" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"  />
+
+</head>
+<body data-spy="scroll" data-target="#navbar-example" data-offset="20">
+<!-- Body -->
+
+<!-- nav bar that stays on the top of the page -->
+<nav id="navbar-example" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- makes the nav bar span the entire page -->
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Kyle Stanevich</a>
+        </div>
+
+        <div class="collapse navbar-collapse" ng-controller="HeaderController" id="navbar-collapse-main">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#bio">Bio</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#google_map">Location</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="schedule.html#schedule">Class Schedule</a></li>
+                        <li><a href="intern_video.html#video">Internship Video</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="http://www.google.com">To Kyle's Server</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- Home -->
+<div id="home" class="home">
+    <div class="text-vcenter">
+        <h1>Welcome</h1>
+        <h2>This is Kyle Stanevich's Website</h2>
+        <h3>Have a look around!</h3>
+    </div>
+</div>
+
+<!-- Bio -->
+<div id="bio" class="pad-section">
+    <div class="container text-vcenter">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="images/kyle.jpg"/>
+            </div>
+            <div class="col-sm-6 text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><b>Bio</b></h2>
+                    </div>
+                    <div class="panel-body">
+                        <p class="lead">I am working toward my Master's Degree in Aerospace Engineering at the University of Illinois at Urbana-Champaign. I got my Bachelor's in Aerospace Engineering from the same school in May 2017.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Education -->
+<div id="education" class="pad-section">
+    <div class="container text-vcenter">        
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><b>Education</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-separator-white"></div>
+        <div class="row text-center">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+						<div class="image">
+							<img src="images/imsa.png" class="img img-responsive full-width" />
+						</div>
+                    </div>
+                    <div class="panel-body">
+                        <h3><b>Illinois Mathematics and Science Academy</b></h3>
+                        <div class="line-separator-black"></div>
+                        <p>High School for gifted students in Illinois.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+						<div class="image">
+							<img src="images/iit.jpg" class="img img-responsive full-width" />
+						</div>
+                    </div>
+                    <div class="panel-body">
+                        <h3><b>Illinois Institute of Technology</b></h3>
+                        <div class="line-separator-black"></div>
+                        <p>Studied Aerospace Engineering here for 3 semesters on a full scholarship.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12 col-xs-offset-0">
+                <div class="panel panel-default">
+                    <div class="panel-heading">						
+						<div class="image">
+							<img src="images/uiuc.png" class="img img-responsive full-height" />
+						</div>
+                    </div>
+                    <div class="panel-body">
+                        <h3><b>University of Illinois at Urbana–Champaign</b></h3>
+                        <div class="line-separator-black"></div>
+                        <p>I am currently working toward my Master's Degree in Aerospace Engineering here. I got my Aerospace Bachelor's Degree from here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Research -->
+<div id="research" class="pad-section">
+    <div class="modal fade" id="sirModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Energy Generating Bike Documents</h4>
+                </div>
+                <div class="modal-body">
+                    <p><a href="docs/sir-final-paper.pdf">Final Report</a></p>
+                    <p><a href="docs/sir-powerpoint.pptm">PowerPoint Presentation</a></p>
+                    <p><a href="docs/sir-poster.jpg">Report Poster</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-vcenter">
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><b>Research</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-separator-white"></div>
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel-group text-vcenter">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>HIIPER</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><b><a href="https://www.ideals.illinois.edu/search?query=HIIPER">HIIPER</a> stands for Helicon Injected Inertial Plasma Electrostatic Rocket. I am a research assistant working with Graduate student Drew Ahern and <a href="http://npre.illinois.edu/directory/faculty/ghmiley">Dr. George H. Miley</a>. In the future I hope to continue this project.</b></p>
+                        </div>
+                    </div>
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>CPMI</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><b><a href="http://cpmi.illinois.edu/">CPMI</a> stands for Center for Plasma-Material Interactions. I am a lab assistant working with Graduate student Michael Christenson. I work on multiple projects at CPMI. <a href="http://cpmi.illinois.edu/2009/02/27/devex-divertor-edge-and-vapor-shielding-experiment/">DEVeX</a> is the project I am most involved with.</b></p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Energy Generating Bikes</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p><b>At IMSA, I participated in <a href="https://www.imsa.edu/academics/inquiry">SIR</a>, a program that lets students research topics they find interesting. I researched Energy Generating Bikes, how to engineer them and motivations to use them. I worked under the supervision of William Gentzler and Branson Lawrence.</p></b>
+                            <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#sirModal"><b>View Findings</b></button>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+<!-- Resume -->
+<div id="resume" class="pad-section">
+    <div class="modal fade" id="resumeModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <p><a href="docs/resume.pdf">Download my Resume</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container text-vcenter">
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2>Resume</h2>
+                    </div>
+                    <div class="panel-body">
+                        <p><b>Want to hire me? See below for my resume!</b></p>
+                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#resumeModal"><b>View Resume</b></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact" class="pad-section">
+    <div class="container text-vcenter">
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h2><b>Contact</b></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="line-separator-white"></div>
+        <div class="row text-center">
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>Email</h3>
+                    </div>
+                    <div class="panel-body">
+                        <b>
+                            <p>Personal:</p>
+                            <p><a href="mailto:kylestanevich@gmail.com">kylestanevich@gmail.com</a></p>
+                            <p>School:</p>
+                            <p><a href="mailto:stanevi2@illinois.edu">stanevi2@illinois.edu</a></p>
+                            <p>Work:</p>
+                            <p><a href="mailto:kyle@empod.com">kyle@empod.com</a></p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3>LinkedIn</h3>
+                    </div>
+                    <div class="panel-body">
+                        <b>
+                            <p><a href="https://www.linkedin.com/pub/kyle-stanevich/89/38a/7b
+">My LinkedIn Profile</a></p>
+                        </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- google map -->
+<div id="google_map"></div>
+
+<!-- footer -->
+<footer>
+    <div class="container">
+        <p class="text-right">Kyle Stanevich 2018</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+    <!--[if IE]>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <![endif]-->
+    <![if !IE]>
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <![endif]>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqqNYza21eIP4CwwNkcWa5fzRIXmSyRyI"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

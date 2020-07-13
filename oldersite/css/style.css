@@ -1,0 +1,237 @@
+/* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+}
+.text-vcenter h2 {
+  font-weight: bold;
+}
+.text-vcenter h3 {
+  font-weight: bold;
+}
+
+/* additional sections */
+#home {
+  background: url(../images/4.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+#video {
+  background: url(../images/4.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+#schedule {
+  background: url(../images/4.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+#bio {
+  background: url(../images/3.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: table;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+}
+#bio .panel {
+  opacity: 0.75;
+  margin: 0% 10%;
+}
+
+#education {
+  background: url(../images/2.jpg) no-repeat center center fixed;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: table;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+  text-shadow: 0px 0px 10px #FFFFFF;
+  font-weight: bold;
+}
+#education .panel {
+  opacity: 0.75;
+  margin: 10% 10%;
+}
+
+
+#research {
+  background: url(../images/1.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+}
+#research .panel {
+  opacity: 0.75;
+}
+
+#resume {
+  background: url(../images/6.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+}
+#resume .panel {
+  opacity: 0.8;
+}
+
+#contact {
+  background: url(../images/5.jpg) no-repeat center center fixed; 
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:rgb(25,25,25);
+}
+#contact .panel {
+  opacity: 0.8;
+}
+
+#google_map {
+  height: 500px;
+}
+
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
+
+.line-separator-black{
+  height:1px;
+  background:#000000;
+  opacity: 0.25;
+  margin: 20px 0px;
+}
+
+.line-separator-white{
+  height:1px;
+  background:#FFFFFF;
+  opacity: 0.4;
+  margin: 20px 0px;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+      position: absolute;
+      max-width: 100%;
+      max-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+}
+
+
+.imagealt{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.imagealt img{
+      position: absolute;
+	  min-width: 100%;
+      height: auto;
+      
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+}
+
