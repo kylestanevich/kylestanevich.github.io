@@ -25,6 +25,8 @@ import sys
 import sdl2
 import sdl2.ext
 
+import time
+
 
 WHITE = sdl2.ext.Color(255, 255, 255)
 
@@ -89,13 +91,22 @@ class Velocity(object):
         self.vy = 0
 
 
-class SoftwareRenderer(sdl2.ext.SoftwareSpriteRenderSystem):
-    def __init__(self, window):
-        super(SoftwareRenderer, self).__init__(window)
+# class SoftwareRenderer(sdl2.ext.SoftwareSpriteRenderSystem):
+    # def __init__(self, window):
+        # super(SoftwareRenderer, self).__init__(window)
+
+    # def render(self, components):
+        # sdl2.ext.fill(self.surface, sdl2.ext.Color(0, 0, 0))
+        # super(SoftwareRenderer, self).render(components)
+
+
+class TextureRenderer(sdl2.ext.TextureSpriteRenderSystem):
+    def __init__(self, renderer):
+        super(TextureRenderer, self).__init__(renderer)
 
     def render(self, components):
-        sdl2.ext.fill(self.surface, sdl2.ext.Color(0, 0, 0))
-        super(SoftwareRenderer, self).render(components)
+        sdl2.ext.fill(self.window, sdl2.ext.Color(0, 0, 0))
+        super(TextureRenderer, self).render(components)
 
 
 class Player(sdl2.ext.Entity):
@@ -119,34 +130,56 @@ class Button(sdl2.ext.Entity):
         self.sprite = sprite
         self.sprite.position = posx, posy
 
+class Text(sdl2.ext.Entity):
+    def __init__(self, world, sprite, posx=0, posy=0):
+        self.sprite = sprite
+        self.sprite.position = posx, posy
+
 ##### kyle edit end #####
 
 
 def run():
     sdl2.ext.init()
     window = sdl2.ext.Window("The Pong Game", size=(800, 600))
+    # window = sdl2.ext.Window("The Pong Game", size=(800, 600),flags=sdl2.SDL_WINDOW_BORDERLESS)
     window.show()
     
     world = sdl2.ext.World()
     
     movement = MovementSystem(0, 0, 800, 600)
     collision = CollisionSystem(0, 0, 800, 600)
-    spriterenderer = SoftwareRenderer(window)
+    # spriterenderer = SoftwareRenderer(window)
+    # spriterenderer = TextureRenderer(window)
+    
+    
+    
+    texture_renderer = sdl2.ext.Renderer(window)
+    spriterenderer = TextureRenderer(texture_renderer)
+    
+    print(spriterenderer.__dict__)
+    
+    factory = sdl2.ext.SpriteFactory(sdl2.ext.TEXTURE, renderer=texture_renderer)
+
+    
     
     world.add_system(movement)
     world.add_system(collision)
     world.add_system(spriterenderer)
     
-    factory = sdl2.ext.SpriteFactory(sdl2.ext.SOFTWARE)
+    # time.sleep(100)
+    
+    # factory = sdl2.ext.SpriteFactory(sdl2.ext.SOFTWARE)
+    # factory = sdl2.ext.SpriteFactory(sdl2.ext.TEXTURE)
     sp_paddle1 = factory.from_color(WHITE, size=(20, 100))
     sp_paddle2 = factory.from_color(WHITE, size=(20, 100))
     sp_ball = factory.from_color(WHITE, size=(20, 20))
     
     ##### kyle edit start #####
     
-    factory_t = sdl2.ext.SpriteFactory(sdl2.ext.SOFTWARE) #how to get TEXTURE to work?
+    # factory_t = sdl2.ext.SpriteFactory(sdl2.ext.SOFTWARE) #how to get TEXTURE to work?
+    # factory_t = sdl2.ext.SpriteFactory(sdl2.ext.TEXTURE)
     uifactory = sdl2.ext.UIFactory(factory)
-    ui_button = uifactory.create_button(size=(100, 100))
+    ui_button = uifactory.from_color(sdl2.ext.BUTTON,color=sdl2.ext.Color(255,0,255),size=(100,50))
     button = Button(world, ui_button, 10, 10)
     
     ##### kyle edit end #####
