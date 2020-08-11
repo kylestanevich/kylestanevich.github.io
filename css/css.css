@@ -30,6 +30,10 @@ body, html {
     background-color: DimGray;
 }
 
+#home div {
+    width: 100%;
+}
+
 #home img {
     display: block;
     margin: auto;
