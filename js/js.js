@@ -123,6 +123,7 @@ function map_init() {
 function get_head_img() {
     
     head_img = document.querySelector("#home img");
+    head_img.onload = function() {head_img_blur_init()};
     
 }
 function head_img_blur_init() {
@@ -197,6 +198,5 @@ var is_phone_nav = false;
 
 
 document.addEventListener("DOMContentLoaded", init);
-head_img.onload = function() {head_img_blur_init()};
 
 
