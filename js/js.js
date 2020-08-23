@@ -21,11 +21,11 @@ function navbar_init() {
     nav_el = document.querySelector("nav");
     navbuttonheight = document.querySelector("nav [href='#home']").clientHeight;
     
-    try { //probably do not need this try catch statement, can delete later after testing
-        document.styleSheets[0].deleteRule(5);
-    } catch (err) {
-        //no need for a catch statement right now
-    }
+    // try { //probably do not need this try catch statement, can delete later after testing
+        // document.styleSheets[0].deleteRule(5);
+    // } catch (err) {
+        // //no need for a catch statement right now
+    // }
     
     navbar_resize();
     
