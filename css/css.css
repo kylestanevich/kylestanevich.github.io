@@ -51,11 +51,12 @@ body, html {
     z-index: 1;
 }
 
-.navbar .menubtn {
+/* .navbar .menubtn { */
+.menubtn {
     width: 100%;
     padding: 10px 0;
     color: Ivory;
-    text-align: center
+    text-align: center;
 }
 
 .navbar:hover nav {
