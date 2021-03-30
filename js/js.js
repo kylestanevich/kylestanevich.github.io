@@ -106,7 +106,7 @@ function map_init() {
     
     document.querySelector("#mapid div").remove();
     
-    var map = L.map('mapid',{}).setView([37.27530545,-102.39404495],4);
+    var map = L.map('mapid',{'worldCopyJump':true}).setView([37.27530545,-102.39404495],4);
     
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
