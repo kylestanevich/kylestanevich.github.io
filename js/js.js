@@ -112,10 +112,11 @@ function map_init() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     
-    var marker = L.marker([41.7869998,-88.3547522]).bindPopup('High School at IMSA').addTo(map);
-    var marker = L.marker([41.8348729,-87.6270061]).bindPopup('College at IIT').addTo(map);
-    var marker = L.marker([40.1019523,-88.2271615]).bindPopup('College at UIUC').addTo(map);
-    var marker = L.marker([32.715738,-117.1610838]).bindPopup('Engineer in San Diego').addTo(map);
+    var marker = L.marker([41.785801,-88.353572]).bindPopup('High School at IMSA<br>2010-2013<br>Aurora, IL').addTo(map);
+    var marker = L.marker([41.833589,-87.626140]).bindPopup('College at IIT<br>2013-2014<br>Chicago, IL').addTo(map);
+    var marker = L.marker([40.111883,-88.228173]).bindPopup('College at UIUC<br>2015-2018<br>Champaign, IL').addTo(map);
+    var marker = L.marker([33.016071,-117.103620]).bindPopup('Engineer at General Atomics<br>2018-2020<br>San Diego, CA').addTo(map);
+    var marker = L.marker([35.036772,-106.543437]).bindPopup('Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM').addTo(map);
     
 }
 

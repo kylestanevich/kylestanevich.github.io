@@ -140,6 +140,8 @@ body, html {
     width: 100%;
     display: flex;
     align-items: stretch;
+    border-radius: 10px;
+    transition-duration: .5s;
 }
 
 /* -------------------------------------------------- */
@@ -162,6 +164,11 @@ label {
 
 label:hover, input:hover {
     cursor: pointer;
+}
+
+label.testbox:hover {
+    background-color: rgb(211,211,211,.9);
+    border-radius: 20px;
 }
 
 .visually-hidden {
