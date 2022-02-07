@@ -117,6 +117,7 @@ function map_init() {
     var marker = L.marker([40.111883,-88.228173]).bindPopup('College at UIUC<br>2015-2018<br>Champaign, IL').addTo(map);
     var marker = L.marker([33.016071,-117.103620]).bindPopup('Engineer at General Atomics<br>2018-2020<br>San Diego, CA').addTo(map);
     var marker = L.marker([35.036772,-106.543437]).bindPopup('Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM').addTo(map);
+    var marker = L.marker([47.672833,-122.094306]).bindPopup('Engineer at Project Kuiper (Amazon)<br>2021-present<br>Redmond, WA').addTo(map);
     
 }
 
