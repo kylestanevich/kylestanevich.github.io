@@ -113,10 +113,10 @@ function map_init() {
                     [[35.036772,-106.543437],'Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM'],
                     [[47.672833,-122.094306],'Engineer at Project Kuiper (Amazon)<br>2021-present<br>Redmond, WA']];
     
-    x_min = Infinity
-    x_max = -Infinity
-    y_min = Infinity
-    y_max = -Infinity
+    x_min = 99999
+    x_max = -99999
+    y_min = 99999
+    y_max = -99999
     for (z in marker_array) {
         if (z[0][0] < x_min) {
             x_min = z[0][0];
