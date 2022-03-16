@@ -130,6 +130,7 @@ function map_init() {
         if (z[0][1] > y_max) {
             y_max = z[0][1];
         }
+        console.log(x_min)
     }
     
     var map = L.map('mapid',{'worldCopyJump':true}).setView([(x_max+x_min)/2,(y_max+y_min)/2],4);
