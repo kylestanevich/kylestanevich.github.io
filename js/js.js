@@ -106,18 +106,41 @@ function map_init() {
     
     document.querySelector("#mapid div").remove();
     
-    var map = L.map('mapid',{'worldCopyJump':true}).setView([37.27530545,-102.39404495],4);
+    marker_array = [[[41.785801,-88.353572],'High School at IMSA<br>2010-2013<br>Aurora, IL'],
+                    [[41.833589,-87.626140],'College at IIT<br>2013-2014<br>Chicago, IL'],
+                    [[40.111883,-88.228173],'College at UIUC<br>2015-2018<br>Champaign, IL'],
+                    [[33.016071,-117.103620],'Engineer at General Atomics<br>2018-2020<br>San Diego, CA'],
+                    [[35.036772,-106.543437],'Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM'],
+                    [[47.672833,-122.094306],'Engineer at Project Kuiper (Amazon)<br>2021-present<br>Redmond, WA']];
+    
+    x_min = Infinity
+    x_max = -Infinity
+    y_min = Infinity
+    y_max = -Infinity
+    for (z in marker_array) {
+        if (z[0][0] < x_min) {
+            x_min = z[0][0];
+        }
+        if (z[0][0] > x_max) {
+            x_max = z[0][0];
+        }
+        if (z[0][1] < y_min) {
+            y_min = z[0][1];
+        }
+        if (z[0][1] > y_max) {
+            y_max = z[0][1];
+        }
+    }
+    
+    var map = L.map('mapid',{'worldCopyJump':true}).setView([(x_max+x_min)/2,(y_max+y_min)/2],4);
     
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     
-    var marker = L.marker([41.785801,-88.353572]).bindPopup('High School at IMSA<br>2010-2013<br>Aurora, IL').addTo(map);
-    var marker = L.marker([41.833589,-87.626140]).bindPopup('College at IIT<br>2013-2014<br>Chicago, IL').addTo(map);
-    var marker = L.marker([40.111883,-88.228173]).bindPopup('College at UIUC<br>2015-2018<br>Champaign, IL').addTo(map);
-    var marker = L.marker([33.016071,-117.103620]).bindPopup('Engineer at General Atomics<br>2018-2020<br>San Diego, CA').addTo(map);
-    var marker = L.marker([35.036772,-106.543437]).bindPopup('Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM').addTo(map);
-    var marker = L.marker([47.672833,-122.094306]).bindPopup('Engineer at Project Kuiper (Amazon)<br>2021-present<br>Redmond, WA').addTo(map);
+    for (z in marker_array) {
+        var marker = L.marker(z[0]).bindPopup(z[1]).addTo(map);
+    }
     
 }
 
