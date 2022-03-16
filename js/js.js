@@ -117,7 +117,7 @@ function map_init() {
     x_max = -99999
     y_min = 99999
     y_max = -99999
-    for (z in marker_array) {
+    for (z of marker_array) {
         if (z[0][0] < x_min) {
             x_min = z[0][0];
         }
@@ -139,7 +139,7 @@ function map_init() {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
     
-    for (z in marker_array) {
+    for (z of marker_array) {
         var marker = L.marker(z[0]).bindPopup(z[1]).addTo(map);
     }
     
