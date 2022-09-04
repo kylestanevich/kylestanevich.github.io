@@ -1,0 +1,30 @@
+/* notes */
+/* . is for class
+    example
+        [html] ... class="something" ...
+        [css] ... .something { ...
+*/
+/* # is for id
+    example
+        [html] ... id="something" ...
+        [css] ... #something { ...
+*/
+
+/* -------------------------------------------------- */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: DimGray;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-origin: border-box;
+}
+
+/* -------------------------------------------------- */
+
+#mapid {
+    height: 100vh;
+}

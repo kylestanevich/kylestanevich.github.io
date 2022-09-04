@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+    
+    <title>Kyle Stanevich's Website</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="About Me">
+    <meta name="keywords" content="aerospace,engineering,kyle,stanevich,UIUC,electric,propulsion,research">
+    <meta name="author" content="Kyle Stanevich">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    
+    <link rel="icon" href="32.png" type="image/png">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/map.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet/dist/leaflet.css" referrerpolicy="no-referrer">
+    
+    <!-- JavaScript -->
+    <script src="js/map.js"></script>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script type="module">
+        import { kml } from "https://unpkg.com/@tmcw/togeojson?module";
+        fetch('/maps/to_visit.kml')
+            .then(function (response) {
+                return response.text();
+            })
+            .then(function (xml) {
+                featcoll = kml(new DOMParser().parseFromString(xml, "text/xml"))
+                var group = L.geoJSON(featcoll, {
+                    onEachFeature: function (feature, layer) {
+                        layer.bindPopup('<b>'+feature.properties.name+'</b><br>'+feature.properties.address);
+                    }
+                }).addTo(mapp);
+                mapp.fitBounds(group.getBounds());
+            });
+    </script>
+
+    
+</head>
+
+<body>
+
+
+
+<!-------------------------------------------------->
+
+
+
+<div id="mapid">
+    <div>
+        Don't see the map? You might have javascript turned off?
+    </div>
+</div>
+
+
+
+<!-------------------------------------------------->
+
+
+
+</body>
+
+</html>

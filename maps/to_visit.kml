@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>places to visit</name>
+	<open>1</open>
+	<Style id="sn_grn-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sh_grn-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/grn-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>00ffffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_grn-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_grn-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_grn-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>to visit</name>
+		<open>1</open>
+		<Folder>
+			<name>abandoned</name>
+			<open>1</open>
+			<Placemark>
+				<name>cement plant</name>
+				<address>Concrete, WA 98237</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-121.7373771969725,48.5522308645254,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cloverland Garage</name>
+				<address>18577 Cloverland Rd, Asotin, WA 99402</address>
+				<Point>
+					<coordinates>-117.2509105,46.2520327,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Elberton County Park</name>
+				<description>Old Elberton Church and bridge</description>
+				<address>Garfield, WA 99130</address>
+				<Point>
+					<coordinates>-117.2203262,46.9801691,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Iron Goat/Martin Creek Trailhead</name>
+				<description>Horseshoe Tunnel and Trestle bridges</description>
+				<address>Skykomish, WA 98288</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-121.2068315,47.7295382,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Satsop cooling towers</name>
+				<address>150 Technology Ln, Elma, WA 98541</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.4678038,46.9598947,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>St. Ignatius Hospital</name>
+				<address>1009 S Mill St, Colfax, WA 99111</address>
+				<Point>
+					<coordinates>-117.3635172,46.8710731,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Northern State Hospital</name>
+				<address>25625 Helmick Rd, Sedro-Woolley, WA 98284</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.206667,48.530556,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vance Creek Bridge</name>
+				<address>Vance Creek Viaduct Trail, Shelton, WA 98584</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.3217595,47.3346345,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fisher Flour Mill</name>
+				<address>3233 16th Ave SW, Seattle, WA 98134</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.3564788,47.5765038,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cascade Tunnel - East Portal</name>
+				<address>US-2, Leavenworth, WA 98826</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-120.9988997,47.7700161,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cascade Tunnel - West Portal</name>
+				<address>Leavenworth, WA 98826</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-121.1452552,47.7153285,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fairfax Bridge</name>
+				<address>23689 Mowich Lake Rd, Carbonado, WA 98323</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.0414114,47.041841,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>abandoned drive in and cafe</name>
+				<address>10706 US-2, Coulee City, WA 99115</address>
+				<Point>
+					<coordinates>-119.2627675,47.6388772,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mabton High School</name>
+				<address>40 Highschool Rd, Mabton, WA 98935</address>
+				<Point>
+					<coordinates>-119.9914076,46.2121363,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Superior Portland Cement Silos</name>
+				<address>7503 S Superior Ave, Concrete, WA 98237</address>
+				<Point>
+					<coordinates>-121.7583979,48.5366242,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Phinney Park Air Raid Tower</name>
+				<address>6532 Phinney Ave N, Seattle, WA 98103</address>
+				<Point>
+					<coordinates>-122.3543179,47.6776983,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Cement Ship</name>
+				<address>3081 Ridge View Dr, DuPont, WA 98327</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.679642,47.1103202,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>abandoned - fixed</name>
+			<open>1</open>
+			<Placemark>
+				<name>Cowlitz Motel and RV Park</name>
+				<address>162 Cowlitz Loop, Toledo, WA 98591</address>
+				<Point>
+					<coordinates>-122.8897761,46.4161045,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>tourist</name>
+			<open>1</open>
+			<Placemark>
+				<name>Edith Macefield House</name>
+				<address>1438 NW 46th St, Seattle, WA 98107</address>
+				<Point>
+					<coordinates>-122.3753246,47.6623591,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Statue of Lenin</name>
+				<address>3526 Fremont Pl N, Seattle, WA 98103</address>
+				<Point>
+					<coordinates>-122.3507443,47.6512744,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wild Horse Renewable Energy Center</name>
+				<address>25905 Vantage Hwy, Ellensburg, WA 98926</address>
+				<Point>
+					<coordinates>-120.2018094,47.0124016,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lions Club - Rail Bike</name>
+				<address>101 Railroad Ave, Ione, WA 99139</address>
+				<Point>
+					<coordinates>-117.4234494,48.7409494,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Codger Pole</name>
+				<address>398 S Main St, Colfax, WA 99111</address>
+				<Point>
+					<coordinates>-117.3673479,48.8778415,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bill Speidels Underground Tour</name>
+				<address>614 1st Ave, Seattle, WA 98104</address>
+				<Point>
+					<coordinates>-120.5765484,47.6023525,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Manhattan Project National Historical Park - B Reactor</name>
+				<address>2000 Logston Blvd, Richland, WA 99354</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-119.6473329,46.6303262,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>architecture</name>
+			<open>1</open>
+			<Placemark>
+				<name>Tacoma Narrows Bridge</name>
+				<address>Tacoma Narrows Bridge, Washington 98335</address>
+				<Point>
+					<coordinates>-122.5516567,47.2689853,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Deception Pass Bridge</name>
+				<address>North Whidbey, Oak Harbor, WA 98277</address>
+				<Point>
+					<coordinates>-122.6445849,48.406229,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>nature</name>
+			<open>1</open>
+			<Placemark>
+				<name> Wild Horse Monument </name>
+				<address>Quincy, WA 98848</address>
+				<Point>
+					<coordinates>-119.9614934,46.9659954,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Mount Saint Helens National Volcanic Monument</name>
+				<address>Washington</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.2162773,46.2764341,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Quinault Rain Forest Trailhead</name>
+				<address>S Shore Rd, Quinault, WA 98575</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.8623319,47.4598342,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hall of Mosses</name>
+				<address>Hoh Valley Rd, Forks, WA 98331</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.9341246,47.8613688,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hole-in-the-Wall</name>
+				<address>Forks, WA 98331</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-124.653517,47.9417418,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Willapa Bay</name>
+				<address>Willapa Bay, WA</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.9429965,46.5509887,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Ape Cave Interpretive Site</name>
+				<address>Cougar, WA 98616</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.2113694,46.1096556,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cheese Cave</name>
+				<address>Trout Lake, WA</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-121.5503379,45.9882196,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Guler Ice Caves</name>
+				<address>Trout Lake, WA 98650</address>
+				<Point>
+					<coordinates>-121.6324764,45.9611966,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Big Lava Bed</name>
+				<address>Washington 98610</address>
+				<Point>
+					<coordinates>-121.75,45.9,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>old military</name>
+			<open>1</open>
+			<Placemark>
+				<name>Fort Ebey State Park</name>
+				<address>400 Hill Valley Dr, Coupeville, WA 98239</address>
+				<Point>
+					<coordinates>-122.7545574,48.2186236,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Camp Hayden Gun Placements</name>
+				<address>Bunker Rd, Port Angeles, WA 98363</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-123.7023182,48.1635605,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Worden Historical State Park</name>
+				<address>200 Battery Way, Port Townsend, WA 98368</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.7694487,48.1391503,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Flagler Historical State Park</name>
+				<address>10541 Flagler Rd, Nordland, WA 98358</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.7025048,48.0953162,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Battery O'Flyng</name>
+				<address>Cape Disappointment Trail, Ilwaco, WA 98624</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-124.0478744,46.276637,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Battery 247</name>
+				<address>Fort Canby, Ilwaco, WA 98624</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-124.0655002,46.2842442,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Fort Casey State Park</name>
+				<address>1280 Engle Rd, Coupeville, WA 98239</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-122.6770467,48.1575353,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>ghost town</name>
+			<open>1</open>
+			<Placemark>
+				<name>Molson</name>
+				<address>Kootenay Boundary E, WA 98844</address>
+				<Point>
+					<coordinates>-119.1994441,48.9811104,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Govan Schoolhouse</name>
+				<address>P5QG+RR4, Wilbur, WA 99185</address>
+				<Point>
+					<coordinates>-118.8191668,47.7405334,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bodie Ghost Town</name>
+				<address>1144 Toroda Creek Rd, Wauconda, WA 98859</address>
+				<Point>
+					<coordinates>-118.8968631,48.8345134,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Melmont ghost town</name>
+				<address>Carbon River Rd, Carbonado, WA 98323</address>
+				<Point>
+					<coordinates>-122.0348991,47.0305958,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Claquato Church</name>
+				<address>125 Water St, Chehalis, WA 98532</address>
+				<Point>
+					<coordinates>-123.0217103,46.6425723,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Liberty Townsite</name>
+				<address>2860 Liberty Rd, Cle Elum, WA 98922</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-120.6630935,47.2546195,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nighthawk</name>
+				<address>Nighthawk, Washington 98827</address>
+				<Point>
+					<coordinates>-119.632896,48.96822,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Monte Cristo</name>
+				<address>Monte Cristo Trail, Washington</address>
+				<styleUrl>#msn_grn-pushpin</styleUrl>
+				<Point>
+					<coordinates>-121.393604,47.9858255,0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
