@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>atlas</name>
+    <open>1</open>
+    <Folder>
+        <name>atlas</name>
+        <open>1</open>
+        <Placemark>
+            <name>579-1</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.3399250,33.5971778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-10</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.8831194,33.3723639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-11</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.5760556,33.5999778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-12</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.5681111,33.7294722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-2</name>
+            <description>Atlas F</description>
+            <address>Elkins, Walker</address>
+            <Point>
+                <coordinates>-104.2025444,33.6404694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-3</name>
+            <description>Atlas F</description>
+            <address>Elkins, Walker</address>
+            <Point>
+                <coordinates>-104.0758472,33.6878861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-4</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.1885806,33.4244500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-5</name>
+            <description>Atlas F</description>
+            <address>Roswell, Walker</address>
+            <Point>
+                <coordinates>-104.0483444,33.4225361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-6</name>
+            <description>Atlas F</description>
+            <address>Hagerman, Walker</address>
+            <Point>
+                <coordinates>-104.1202139,33.0726917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-7</name>
+            <description>Atlas F</description>
+            <address>Hagerman, Walker</address>
+            <Point>
+                <coordinates>-104.2573556,33.1046778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-8</name>
+            <description>Atlas F</description>
+            <address>Lake Arthur, Walker</address>
+            <Point>
+                <coordinates>-104.3396444,33.0042139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>579-9</name>
+            <description>Atlas F</description>
+            <address>Picacho, Walker</address>
+            <Point>
+                <coordinates>-105.0353389,33.3540528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>549-A</name>
+            <description>Atlas D</description>
+            <address>Mead, Offutt</address>
+            <Point>
+                <coordinates>-96.4395667,41.1935167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>549-B</name>
+            <description>Atlas D</description>
+            <address>Arlington, Offutt</address>
+            <Point>
+                <coordinates>-96.2997722,41.4881722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-4</name>
+            <description>Atlas E</description>
+            <address>Kimball, F.E. Warren</address>
+            <Point>
+                <coordinates>-103.6860889,41.2101222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-1</name>
+            <description>Atlas F</description>
+            <address>Elmwood, Lincoln</address>
+            <Point>
+                <coordinates>-96.2057167,40.8161694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-10</name>
+            <description>Atlas F</description>
+            <address>York, Lincoln</address>
+            <Point>
+                <coordinates>-97.6855444,40.8952833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-11</name>
+            <description>Atlas F</description>
+            <address>Seward, Lincoln</address>
+            <Point>
+                <coordinates>-97.1864917,40.9268583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-12</name>
+            <description>Atlas F</description>
+            <address>David City, Lincoln</address>
+            <Point>
+                <coordinates>-96.9617778,41.2111139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-2</name>
+            <description>Atlas F</description>
+            <address>Avoca, Lincoln</address>
+            <Point>
+                <coordinates>-96.3614833,40.8223361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-3</name>
+            <description>Atlas F</description>
+            <address>Eagle, Lincoln</address>
+            <Point>
+                <coordinates>-96.0338444,40.8089472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-4</name>
+            <description>Atlas F</description>
+            <address>Nebraska City, Lincoln</address>
+            <Point>
+                <coordinates>-95.9454667,40.6766778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-5</name>
+            <description>Atlas F</description>
+            <address>Palmyra, Lincoln</address>
+            <Point>
+                <coordinates>-96.3807972,40.6946250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-6</name>
+            <description>Atlas F</description>
+            <address>Tecumseh, Lincoln</address>
+            <Point>
+                <coordinates>-96.1890361,40.4317250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-7</name>
+            <description>Atlas F</description>
+            <address>Courtland, Lincoln</address>
+            <Point>
+                <coordinates>-96.6392056,40.5166361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-8</name>
+            <description>Atlas F</description>
+            <address>Beatrice, Lincoln</address>
+            <Point>
+                <coordinates>-96.8112056,40.2281833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>551-9</name>
+            <description>Atlas F</description>
+            <address>Wilber, Lincoln</address>
+            <Point>
+                <coordinates>-97.0882333,40.4840278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-1</name>
+            <description>Atlas F</description>
+            <address>Lonewolf, Altus</address>
+            <Point>
+                <coordinates>-99.2597139,34.9257972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-10</name>
+            <description>Atlas F</description>
+            <address>Russell, Altus</address>
+            <Point>
+                <coordinates>-99.5905528,34.8179417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-11</name>
+            <description>Atlas F</description>
+            <address>Willow, Altus</address>
+            <Point>
+                <coordinates>-99.4968639,35.0619083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-12</name>
+            <description>Atlas F</description>
+            <address>Hobart, Altus</address>
+            <Point>
+                <coordinates>-99.4272806,34.9532833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-2</name>
+            <description>Atlas F</description>
+            <address>Hobart, Altus</address>
+            <Point>
+                <coordinates>-99.1705611,35.0262861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-3</name>
+            <description>Atlas F</description>
+            <address>Snyder, Altus</address>
+            <Point>
+                <coordinates>-98.9410944,34.6874917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-4</name>
+            <description>Atlas F</description>
+            <address>Cache, Altus</address>
+            <Point>
+                <coordinates>-98.6608389,34.6157833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-5</name>
+            <description>Atlas F</description>
+            <address>Mantiou, Altus</address>
+            <Point>
+                <coordinates>-98.9620083,34.5620389,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-6</name>
+            <description>Atlas F</description>
+            <address>Frederick, Altus</address>
+            <Point>
+                <coordinates>-99.0146000,34.4379167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-8</name>
+            <description>Atlas F</description>
+            <address>Creta, Altus</address>
+            <Point>
+                <coordinates>-99.5399222,34.5262583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-9</name>
+            <description>Atlas F</description>
+            <address>Hollis, Altus</address>
+            <Point>
+                <coordinates>-99.8338056,34.6846667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-1</name>
+            <description>Atlas E</description>
+            <address>Deer Park, Fairchild</address>
+            <Point>
+                <coordinates>-117.4090833,47.9746167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-2</name>
+            <description>Atlas E</description>
+            <address>Newman Lake, Fairchild</address>
+            <Point>
+                <coordinates>-117.0604056,47.7405917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-4</name>
+            <description>Atlas E</description>
+            <address>Sprague, Fairchild</address>
+            <Point>
+                <coordinates>-117.9032500,47.3328694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-5</name>
+            <description>Atlas E</description>
+            <address>Lemona, Fairchild</address>
+            <Point>
+                <coordinates>-118.4907722,47.3684917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-6</name>
+            <description>Atlas E</description>
+            <address>Davenport, Fairchild</address>
+            <Point>
+                <coordinates>-118.1597417,47.5607917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-7</name>
+            <description>Atlas E</description>
+            <address>Wilbur, Fairchild</address>
+            <Point>
+                <coordinates>-118.6086472,47.7644778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-8</name>
+            <description>Atlas E</description>
+            <address>Egypt, Fairchild</address>
+            <Point>
+                <coordinates>-118.2226417,47.8280194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-9</name>
+            <description>Atlas E</description>
+            <address>Reardon, Fairchild</address>
+            <Point>
+                <coordinates>-117.8310083,47.7952000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>564-A-1,2,3</name>
+            <description>Atlas D</description>
+            <address>Cheyenne, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.9700389,41.3788444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>564-B</name>
+            <description>Atlas D</description>
+            <address>Cheyenne, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.9700389,41.3788444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>565-A</name>
+            <description>Atlas D</description>
+            <address>Cheyenne, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.6417917,41.3924583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>565-B</name>
+            <description>Atlas D</description>
+            <address>Cheyenne, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.5119306,41.0896194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>565-C</name>
+            <description>Atlas D</description>
+            <address>Cheyenne, F.E. Warren</address>
+            <Point>
+                <coordinates>-105.1458611,41.0856167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-1</name>
+            <description>Atlas E</description>
+            <address>Chugwater, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.7769722,41.6688139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-2</name>
+            <description>Atlas E</description>
+            <address>La Grange, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.2991306,41.5609167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-3</name>
+            <description>Atlas E</description>
+            <address>Pine Bluffs, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.0657000,41.2181417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-2</name>
+            <description>Atlas F</description>
+            <address>Alburg, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.2880528,44.9869222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-3</name>
+            <description>Atlas F</description>
+            <address>Swanton, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.1390056,44.9022750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>549-C</name>
+            <description>Atlas D</description>
+            <address>Missouri Valley, Offutt</address>
+            <Point>
+                <coordinates>-95.8192194,41.5210806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>577-7</name>
+            <description>Atlas F</description>
+            <address>Fargo, Altus</address>
+            <Point>
+                <coordinates>-99.3244833,34.3619250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-1</name>
+            <description>Atlas F</description>
+            <address>Abilene, Dyess</address>
+            <Point>
+                <coordinates>-99.6500528,32.6026167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-10</name>
+            <description>Atlas F</description>
+            <address>Nolan, Dyess</address>
+            <Point>
+                <coordinates>-100.1531972,32.3016111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-11</name>
+            <description>Atlas F</description>
+            <address>Anson, Dyess</address>
+            <Point>
+                <coordinates>-99.9094694,32.7112056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-12</name>
+            <description>Atlas F</description>
+            <address>Corinth, Dyess</address>
+            <Point>
+                <coordinates>-99.8914639,32.8600417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-2</name>
+            <description>Atlas F</description>
+            <address>Albany, Dyess</address>
+            <Point>
+                <coordinates>-99.2972778,32.7063222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-3</name>
+            <description>Atlas F</description>
+            <address>Clyde, Dyess</address>
+            <Point>
+                <coordinates>-99.4606861,32.3818361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-4</name>
+            <description>Atlas F</description>
+            <address>Denton County, Dyess</address>
+            <Point>
+                <coordinates>-99.5413778,32.2738528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-5</name>
+            <description>Atlas F</description>
+            <address>Oplin, Dyess</address>
+            <Point>
+                <coordinates>-99.5530361,32.1615806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-6</name>
+            <description>Atlas F</description>
+            <address>Lawn, Dyess</address>
+            <Point>
+                <coordinates>-99.7031694,32.1402250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-7</name>
+            <description>Atlas F</description>
+            <address>Bradshaw, Dyess</address>
+            <Point>
+                <coordinates>-99.8551611,32.1307250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-8</name>
+            <description>Atlas F</description>
+            <address>Winters, Dyess</address>
+            <Point>
+                <coordinates>-99.8803306,31.9737639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>578-9</name>
+            <description>Atlas F</description>
+            <address>Shep, Dyess</address>
+            <Point>
+                <coordinates>-100.0512722,32.2103722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-5</name>
+            <description>Atlas E</description>
+            <address>Grover, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.2159806,40.9457222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-6</name>
+            <description>Atlas E</description>
+            <address>Briggsdale, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.3847111,40.6489528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-7</name>
+            <description>Atlas E</description>
+            <address>Nunn, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.7197139,40.7881889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-8</name>
+            <description>Atlas E</description>
+            <address>Greeley, F.E. Warren</address>
+            <Point>
+                <coordinates>-104.8618556,40.4294722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>566-9</name>
+            <description>Atlas E</description>
+            <address>Fort Collins, F.E. Warren</address>
+            <Point>
+                <coordinates>-105.2036167,40.6788667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-1</name>
+            <description>Atlas F</description>
+            <address>Champlain, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.4721917,45.0011111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-10</name>
+            <description>Atlas F</description>
+            <address>Brainardsville, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.9880833,44.8435139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-11</name>
+            <description>Atlas F</description>
+            <address>Ellenburg Depot, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.8179361,44.9123194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-12</name>
+            <description>Atlas F</description>
+            <address>Mooers, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.6242667,44.9676194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-4</name>
+            <description>Atlas F</description>
+            <address>Willsboro, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.3696917,44.3422278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-5</name>
+            <description>Atlas F</description>
+            <address>Lewis, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.5535000,44.3322889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-6</name>
+            <description>Atlas F</description>
+            <address>Au Sable Forks, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.6426167,44.4600444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-7</name>
+            <description>Atlas F</description>
+            <address>Riverview, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.9755528,44.5418389,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-8</name>
+            <description>Atlas F</description>
+            <address>Redford, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.8565528,44.6011333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>556-9</name>
+            <description>Atlas F</description>
+            <address>Dannemora, Plattsburgh</address>
+            <Point>
+                <coordinates>-73.8224111,44.7705167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>567-3</name>
+            <description>Atlas E</description>
+            <address>Rockford, Fairchild</address>
+            <Point>
+                <coordinates>-117.0185083,47.4371639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576-A</name>
+            <description>Atlas D</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.6003389,34.7782528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576-B</name>
+            <description>Atlas D</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5950222,34.7913611,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576-C</name>
+            <description>Atlas E</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5847333,34.8089333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OSTF-1</name>
+            <description>Atlas E</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5895833,34.7958972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576-D</name>
+            <description>Atlas F</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5569750,34.8206833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>576-E</name>
+            <description>Atlas F</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.6195028,34.7393444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OSTF-2</name>
+            <description>Atlas F</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5617583,34.8223500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-1</name>
+            <description>Atlas E</description>
+            <address>Valley Falls, Forbes</address>
+            <Point>
+                <coordinates>-95.5306389,39.2795278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-2</name>
+            <description>Atlas E</description>
+            <address>Lawrence, Forbes</address>
+            <Point>
+                <coordinates>-95.3682861,38.7677111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-3</name>
+            <description>Atlas E</description>
+            <address>Waverly, Forbes</address>
+            <Point>
+                <coordinates>-95.6785472,38.4307250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-4</name>
+            <description>Atlas E</description>
+            <address>Osage City, Forbes</address>
+            <Point>
+                <coordinates>-95.8801111,38.6948667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-5</name>
+            <description>Atlas E</description>
+            <address>Council Grove, Forbes</address>
+            <Point>
+                <coordinates>-96.3024139,38.6864028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-6</name>
+            <description>Atlas E</description>
+            <address>Eskridge, Forbes</address>
+            <Point>
+                <coordinates>-96.0491583,38.9766917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-7</name>
+            <description>Atlas E</description>
+            <address>Wamego, Forbes</address>
+            <Point>
+                <coordinates>-96.3255833,39.2228417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-8</name>
+            <description>Atlas E</description>
+            <address>Saint Marys, Forbes</address>
+            <Point>
+                <coordinates>-95.9192417,39.2453917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>548-9</name>
+            <description>Atlas E</description>
+            <address>Holton, Forbes</address>
+            <Point>
+                <coordinates>-95.7403389,39.5260028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-1</name>
+            <description>Atlas F</description>
+            <address>Bennington, Schilling</address>
+            <Point>
+                <coordinates>-97.5434111,39.0989222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-10</name>
+            <description>Atlas F</description>
+            <address>Tescott, Schilling</address>
+            <Point>
+                <coordinates>-97.8504972,39.0196639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-11</name>
+            <description>Atlas F</description>
+            <address>Glasco, Schilling</address>
+            <Point>
+                <coordinates>-97.6808556,39.4122056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-12</name>
+            <description>Atlas F</description>
+            <address>Minneapolis, Schilling</address>
+            <Point>
+                <coordinates>-97.6640972,39.1644528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-2</name>
+            <description>Atlas F</description>
+            <address>Abilene, Schilling</address>
+            <Point>
+                <coordinates>-97.2562000,38.9486861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-3</name>
+            <description>Atlas F</description>
+            <address>Chapman, Schilling</address>
+            <Point>
+                <coordinates>-97.0658000,38.9851694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-4</name>
+            <description>Atlas F</description>
+            <address>Carlton, Schilling</address>
+            <Point>
+                <coordinates>-97.3227583,38.6736528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-5</name>
+            <description>Atlas F</description>
+            <address>McPherson, Schilling</address>
+            <Point>
+                <coordinates>-97.6410222,38.4765444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-6</name>
+            <description>Atlas F</description>
+            <address>Mitchell, Schilling</address>
+            <Point>
+                <coordinates>-98.0681333,38.3916028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-7</name>
+            <description>Atlas F</description>
+            <address>Kanopolis, Schilling</address>
+            <Point>
+                <coordinates>-98.0515861,38.7523333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-8</name>
+            <description>Atlas F</description>
+            <address>Wilson, Schilling</address>
+            <Point>
+                <coordinates>-98.4344972,38.8349361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>550-9</name>
+            <description>Atlas F</description>
+            <address>Beverly, Schilling</address>
+            <Point>
+                <coordinates>-98.0156083,39.0677861,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</Document>
+</kml>

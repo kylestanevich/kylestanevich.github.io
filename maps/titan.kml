@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>titan</name>
+    <open>1</open>
+    <Folder>
+        <name>titan 1</name>
+        <open>1</open>
+        <Placemark>
+            <name>724-A</name>
+            <description>Titan I</description>
+            <address>Bennett, Lowry</address>
+            <Point>
+                <coordinates>-104.6901500,39.6479361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>724-B</name>
+            <description>Titan I</description>
+            <address>Denver, Lowry</address>
+            <Point>
+                <coordinates>-104.5796222,39.6046917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>724-C</name>
+            <description>Titan I</description>
+            <address>Denver, Lowry</address>
+            <Point>
+                <coordinates>-104.4929389,39.6653611,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>725-A</name>
+            <description>Titan I</description>
+            <address>Deertail, Lowry</address>
+            <Point>
+                <coordinates>-104.4618722,39.5884278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>725-B</name>
+            <description>Titan I</description>
+            <address>Bennett, Lowry</address>
+            <Point>
+                <coordinates>-104.0275778,39.6678278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>725-C</name>
+            <description>Titan I</description>
+            <address>Elizabeth, Lowry</address>
+            <Point>
+                <coordinates>-104.5639500,39.3047889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>850-A</name>
+            <description>Titan I</description>
+            <address>New Underwood, Ellsworth</address>
+            <Point>
+                <coordinates>-102.6177611,44.1371444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>850-B</name>
+            <description>Titan I</description>
+            <address>Hermosa, Ellsworth</address>
+            <Point>
+                <coordinates>-103.1467000,43.7770278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>850-C</name>
+            <description>Titan I</description>
+            <address>Sturgis, Ellsworth</address>
+            <Point>
+                <coordinates>-103.3132833,44.3979556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>569-A</name>
+            <description>Titan I</description>
+            <address>Bruneau, Mountain Home</address>
+            <Point>
+                <coordinates>-115.8674889,42.6703056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>569-B</name>
+            <description>Titan I</description>
+            <address>Oreana, Mountain Home</address>
+            <Point>
+                <coordinates>-116.2637472,43.0664167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>569-C</name>
+            <description>Titan I</description>
+            <address>Boise, Mountain Home</address>
+            <Point>
+                <coordinates>-115.9919611,43.3455278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>568-A</name>
+            <description>Titan I</description>
+            <address>Odessa, Larson</address>
+            <Point>
+                <coordinates>-118.8218472,47.1878417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>568-B</name>
+            <description>Titan I</description>
+            <address>Warden, Larson</address>
+            <Point>
+                <coordinates>-119.0543167,46.9166222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>568-C</name>
+            <description>Titan I</description>
+            <address>Quincy, Larson</address>
+            <Point>
+                <coordinates>-119.7558861,46.9077111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>395-A</name>
+            <description>Titan I</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5448361,34.8062556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>851-A</name>
+            <description>Titan I</description>
+            <address>Lincoln, Beale</address>
+            <Point>
+                <coordinates>-121.2657278,38.8819167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>851-B</name>
+            <description>Titan I</description>
+            <address>Live Oak, Beale</address>
+            <Point>
+                <coordinates>-121.8295389,39.2761028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>851-C</name>
+            <description>Titan I</description>
+            <address>Chico, Beale</address>
+            <Point>
+                <coordinates>-121.8528000,39.8182556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OSTF-8</name>
+            <description>Titan I</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5462083,34.8042972,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+    <Folder>
+        <name>titan 2</name>
+        <open>1</open>
+        <Placemark>
+            <name>570-1</name>
+            <description>Titan II</description>
+            <address>Oracle, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.8893139,32.5973917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-2</name>
+            <description>Titan II</description>
+            <address>Three Points, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.2625528,32.1011250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-3</name>
+            <description>Titan II</description>
+            <address>Rillito, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.4622444,32.3680417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-4</name>
+            <description>Titan II</description>
+            <address>Rillito, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.3180417,32.3594639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-5</name>
+            <description>Titan II</description>
+            <address>Rillito, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.2394722,32.5232556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-6</name>
+            <description>Titan II</description>
+            <address>Rillito, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.1377500,32.4280833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-7</name>
+            <description>Titan II</description>
+            <address>Oracle Junction, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.1158056,32.7486861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-8</name>
+            <description>Titan II</description>
+            <address>Oracle Junction, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.0280250,32.6528472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>570-9</name>
+            <description>Titan II</description>
+            <address>Oracle Junction, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.9290361,32.4784750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-1</name>
+            <description>Titan II</description>
+            <address>Benson, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.1853667,31.9822139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-2</name>
+            <description>Titan II</description>
+            <address>Benson, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.3737389,31.9594528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-3</name>
+            <description>Titan II</description>
+            <address>Mescal, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.5076889,31.9710139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-4</name>
+            <description>Titan II</description>
+            <address>Pantano, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.6628194,31.9573028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-5</name>
+            <description>Titan II</description>
+            <address>Continental, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.8909139,31.7537222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-6</name>
+            <description>Titan II</description>
+            <address>Amado, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.0705444,31.6446194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-7</name>
+            <description>Titan II</description>
+            <address>Green Valley, Davis-Monthan</address>
+            <Point>
+                <coordinates>-110.9992278,31.9037778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-8</name>
+            <description>Titan II</description>
+            <address>Palo Alto, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.3890972,31.8881722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>571-9</name>
+            <description>Titan II</description>
+            <address>Three Points, Davis-Monthan</address>
+            <Point>
+                <coordinates>-111.3547083,32.0043139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-1</name>
+            <description>Titan II</description>
+            <address>Mount Vernon, Little Rock</address>
+            <Point>
+                <coordinates>-92.1247000,35.2095444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-2</name>
+            <description>Titan II</description>
+            <address>Rose Bud, Little Rock</address>
+            <Point>
+                <coordinates>-92.0192611,35.3151167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-3</name>
+            <description>Titan II</description>
+            <address>Heber Springs, Little Rock</address>
+            <Point>
+                <coordinates>-91.9825167,35.4421250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-4</name>
+            <description>Titan II</description>
+            <address>Albion, Little Rock</address>
+            <Point>
+                <coordinates>-91.7942278,35.3707000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-5</name>
+            <description>Titan II</description>
+            <address>Center Hill, Little Rock</address>
+            <Point>
+                <coordinates>-91.8570306,35.2606278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-6</name>
+            <description>Titan II</description>
+            <address>Antioch, Little Rock</address>
+            <Point>
+                <coordinates>-91.9010444,35.1427028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-7</name>
+            <description>Titan II</description>
+            <address>Velvet Ridge, Little Rock</address>
+            <Point>
+                <coordinates>-91.5682833,35.4356250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-8</name>
+            <description>Titan II</description>
+            <address>Judsonia, Little Rock</address>
+            <Point>
+                <coordinates>-91.6523417,35.3042611,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>373-9</name>
+            <description>Titan II</description>
+            <address>Hamlet, Little Rock</address>
+            <Point>
+                <coordinates>-92.2548194,35.1449639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-1</name>
+            <description>Titan II</description>
+            <address>Blackwell, Little Rock</address>
+            <Point>
+                <coordinates>-92.8214278,35.2269750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-2</name>
+            <description>Titan II</description>
+            <address>Plummerville, Little Rock</address>
+            <Point>
+                <coordinates>-92.6307972,35.1886972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-3</name>
+            <description>Titan II</description>
+            <address>Saint Vincent, Little Rock</address>
+            <Point>
+                <coordinates>-92.7237944,35.3115639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-4</name>
+            <description>Titan II</description>
+            <address>Springfield, Little Rock</address>
+            <Point>
+                <coordinates>-92.5474611,35.2876917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-5</name>
+            <description>Titan II</description>
+            <address>Springfield, Little Rock</address>
+            <Point>
+                <coordinates>-92.3926222,35.1678167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-6</name>
+            <description>Titan II</description>
+            <address>Republican, Little Rock</address>
+            <Point>
+                <coordinates>-92.3869028,35.2917500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-7</name>
+            <description>Titan II</description>
+            <address>Southside, Little Rock</address>
+            <Point>
+                <coordinates>-92.3973139,35.4140528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-8</name>
+            <description>Titan II</description>
+            <address>Guy, Little Rock</address>
+            <Point>
+                <coordinates>-92.2499361,35.3294333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>374-9</name>
+            <description>Titan II</description>
+            <address>Quitman, Little Rock</address>
+            <Point>
+                <coordinates>-92.1497917,35.4097083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-1</name>
+            <description>Titan II</description>
+            <address>Wellington, McConnell</address>
+            <Point>
+                <coordinates>-97.4087722,37.1842333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-2</name>
+            <description>Titan II</description>
+            <address>Wellington, McConnell</address>
+            <Point>
+                <coordinates>-97.5341250,37.2543694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-3</name>
+            <description>Titan II</description>
+            <address>Conway Springs, McConnell</address>
+            <Point>
+                <coordinates>-97.6329028,37.3629167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-4</name>
+            <description>Titan II</description>
+            <address>Viola, McConnell</address>
+            <Point>
+                <coordinates>-97.7116528,37.4675278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-5</name>
+            <description>Titan II</description>
+            <address>Norwich, McConnell</address>
+            <Point>
+                <coordinates>-97.9112139,37.4641083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-6</name>
+            <description>Titan II</description>
+            <address>Rago, McConnell</address>
+            <Point>
+                <coordinates>-98.0687306,37.4254667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-7</name>
+            <description>Titan II</description>
+            <address>Murdock, McConnell</address>
+            <Point>
+                <coordinates>-97.9038194,37.6214222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-8</name>
+            <description>Titan II</description>
+            <address>Kingman, McConnell</address>
+            <Point>
+                <coordinates>-98.0674250,37.6962167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>532-9</name>
+            <description>Titan II</description>
+            <address>Mount Vernon, McConnell</address>
+            <Point>
+                <coordinates>-97.7653389,37.7519667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-1</name>
+            <description>Titan II</description>
+            <address>Potwin, McConnell</address>
+            <Point>
+                <coordinates>-97.0014611,37.9811972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-2</name>
+            <description>Titan II</description>
+            <address>El Dorado, McConnell</address>
+            <Point>
+                <coordinates>-96.8437778,37.9241306,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-3</name>
+            <description>Titan II</description>
+            <address>Leon, McConnell</address>
+            <Point>
+                <coordinates>-96.8483861,37.6982833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-4</name>
+            <description>Titan II</description>
+            <address>Leon, McConnell</address>
+            <Point>
+                <coordinates>-96.6569972,37.6614917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-5</name>
+            <description>Titan II</description>
+            <address>Leon, McConnell</address>
+            <Point>
+                <coordinates>-96.7739889,37.5711250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-6</name>
+            <description>Titan II</description>
+            <address>Smileyville, McConnell</address>
+            <Point>
+                <coordinates>-96.9034806,37.5025806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-7</name>
+            <description>Titan II</description>
+            <address>Rock, McConnell</address>
+            <Point>
+                <coordinates>-96.9991694,37.4078944,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-8</name>
+            <description>Titan II</description>
+            <address>Winfield, McConnell</address>
+            <Point>
+                <coordinates>-96.8539056,37.2612333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>533-9</name>
+            <description>Titan II</description>
+            <address>Oxford, McConnell</address>
+            <Point>
+                <coordinates>-97.2273278,37.2931556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>395-B</name>
+            <description>Titan II</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.6079667,34.7823833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>395-C</name>
+            <description>Titan II</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5965333,34.7339528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>395-D</name>
+            <description>Titan II</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5896861,34.7076806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>68-SLTF</name>
+            <description>Titan II</description>
+            <address>, Vandenberg</address>
+            <Point>
+                <coordinates>-120.5491722,34.8069528,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</Document>
+</kml>

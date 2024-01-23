@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+    <name>nike</name>
+    <open>1</open>
+    <Folder>
+        <name>nike</name>
+        <open>1</open>
+        <Placemark>
+            <name>OA-17 IFC</name>
+            <description>Nike</description>
+            <address>Kauka/Kahuku, Oahu</address>
+            <Point>
+                <coordinates>-157.9997694,21.6670639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-17 Launch Battery</name>
+            <description>Nike</description>
+            <address>Kauka/Kahuku, Oahu</address>
+            <Point>
+                <coordinates>-157.9820833,21.6646833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-32 IFC</name>
+            <description>Nike</description>
+            <address>Bellows AFS/Waimanalo, Oahu</address>
+            <Point>
+                <coordinates>-157.6816778,21.3204833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-32 Launch Battery</name>
+            <description>Nike</description>
+            <address>Bellows/Waimanalo, Oahu</address>
+            <Point>
+                <coordinates>-157.7075667,21.3486306,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-63 IFC 1</name>
+            <description>Nike</description>
+            <address>Ewa/Makakilo, Oahu</address>
+            <Point>
+                <coordinates>-158.1052556,21.3862139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-63 IFC 2</name>
+            <description>Nike</description>
+            <address>Ewa/Makakilo, Oahu</address>
+            <Point>
+                <coordinates>-158.1120139,21.3772417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-63 Launch Battery</name>
+            <description>Nike</description>
+            <address>Ewa/Makakilo, Oahu</address>
+            <Point>
+                <coordinates>-158.1126861,21.3642806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-84 Launcher</name>
+            <description>Nike</description>
+            <address>Waialua/Dillingham, Oahu</address>
+            <Point>
+                <coordinates>-158.1947194,21.5458694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>OA-84 Launch Battery</name>
+            <description>Nike</description>
+            <address>Waialua Dillingham, Oahu</address>
+            <Point>
+                <coordinates>-158.1948917,21.5768750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-01/03 IFC</name>
+            <description>Nike</description>
+            <address>Opa Locka/Carol City, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.3016000,25.9439000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-01/03 Launcher</name>
+            <description>Nike</description>
+            <address>Opa Locka/Carol City, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.3032889,25.9617722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-40 IFC</name>
+            <description>Nike</description>
+            <address>Key Largo, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.3029000,25.2762639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-40 Launcher</name>
+            <description>Nike</description>
+            <address>Key Largo, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.3136361,25.2616194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-66/69 IFC</name>
+            <description>Nike</description>
+            <address>Florida City, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.6808889,25.3902472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-66/69 Dual Site Launcher</name>
+            <description>Nike</description>
+            <address>Florida City, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.6847000,25.3701333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-95 IFC</name>
+            <description>Nike</description>
+            <address>12 Miles West of Miami, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.4819500,25.7375972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>HM-95 Launcher</name>
+            <description>Nike</description>
+            <address>12 Miles West of Miami, Homestead/Miami</address>
+            <Point>
+                <coordinates>-80.4909833,25.7560806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BG-40 IFC</name>
+            <description>Nike</description>
+            <address>Elroy, Bergstrom AFB</address>
+            <Point>
+                <coordinates>-97.5924694,30.1055083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BG-40 Launcher</name>
+            <description>Nike</description>
+            <address>Elroy, Bergstrom AFB</address>
+            <Point>
+                <coordinates>-97.5878472,30.0974056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BG-80 IFC</name>
+            <description>Nike</description>
+            <address>Austin, Bergstrom AFB</address>
+            <Point>
+                <coordinates>-97.8399111,30.3054444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>BG-80 Launcher</name>
+            <description>Nike</description>
+            <address>Austin, Bergstrom AFB</address>
+            <Point>
+                <coordinates>-97.8669056,30.3144056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-01 IFC</name>
+            <description>Nike</description>
+            <address>Denton, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-97.1320583,33.2748778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-01 Launcher</name>
+            <description>Nike</description>
+            <address>Denton, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-97.1358194,33.2903139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-20 IFC</name>
+            <description>Nike</description>
+            <address>Terell, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-96.3127083,32.7629889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-20 Launcher</name>
+            <description>Nike</description>
+            <address>Terell, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-96.2951944,32.7674167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-50 IFC</name>
+            <description>Nike</description>
+            <address>Alvarado, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-97.1667833,32.3905306,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-50 Launcher</name>
+            <description>Nike</description>
+            <address>Alvarado, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-97.1691833,32.3800278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-70 IFC</name>
+            <description>Nike</description>
+            <address>Fort Wolters, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-98.0449056,32.8495861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DF-70 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Wolters, Dallas Fort Worth</address>
+            <Point>
+                <coordinates>-98.0591722,32.8501556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DY-10 IFC</name>
+            <description>Nike</description>
+            <address>Fort Phantom Hill, Dyess AFB</address>
+            <Point>
+                <coordinates>-99.7165028,32.5646222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DY-10 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Phantom Hill, Dyess AFB</address>
+            <Point>
+                <coordinates>-99.7176056,32.5804111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DY-50 IFC</name>
+            <description>Nike</description>
+            <address>Abilene, Dyess AFB</address>
+            <Point>
+                <coordinates>-99.9437417,32.2845417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>DY-50 Launcher</name>
+            <description>Nike</description>
+            <address>Abilene, Dyess AFB</address>
+            <Point>
+                <coordinates>-99.9587500,32.2712417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bay IFC</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-149.8569833,61.3966111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Bay Launcher</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-149.8848833,61.4067528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jig IFC</name>
+            <description>Nike</description>
+            <address>Eielson AFB, Fairbanks</address>
+            <Point>
+                <coordinates>-146.9969556,64.5368194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Jig Launcher</name>
+            <description>Nike</description>
+            <address>Eielson AFB, Fairbanks</address>
+            <Point>
+                <coordinates>-146.9646167,64.5271861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Love IFC</name>
+            <description>Nike</description>
+            <address>Fairbanks, Fairbanks</address>
+            <Point>
+                <coordinates>-147.9112222,64.9720056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Love Launch Battery</name>
+            <description>Nike</description>
+            <address>Fairbanks, Fairbanks</address>
+            <Point>
+                <coordinates>-147.8852111,64.9843639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mike IFC</name>
+            <description>Nike</description>
+            <address>Eielson AFB, Fairbanks</address>
+            <Point>
+                <coordinates>-146.7514944,64.5819750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Mike Launch Battery</name>
+            <description>Nike</description>
+            <address>Eielson AFB, Fairbanks</address>
+            <Point>
+                <coordinates>-146.7282111,64.5869444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peter IFC</name>
+            <description>Nike</description>
+            <address>Eielson AFB (15 miles East), Fairbanks</address>
+            <Point>
+                <coordinates>-146.7382667,64.6646861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Peter Launch Battery</name>
+            <description>Nike</description>
+            <address>Eielson AFB (15 miles East), Fairbanks</address>
+            <Point>
+                <coordinates>-146.7507861,64.6740583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point IFC</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-150.0354194,61.1582639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Point Launch Battery</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-150.0560000,61.1571667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Summit IFC</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-149.5286194,61.2580944,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Summit Launcher</name>
+            <description>Nike</description>
+            <address>Anchorage, Anchorage</address>
+            <Point>
+                <coordinates>-149.5479389,61.2481917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tare IFC</name>
+            <description>Nike</description>
+            <address>Newman (20 miles south), Fairbanks</address>
+            <Point>
+                <coordinates>-147.2153944,64.7264083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>Tare Launch Battery</name>
+            <description>Nike</description>
+            <address>Newman (20 miles south), Fairbanks</address>
+            <Point>
+                <coordinates>-147.2173444,64.7581028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>WA-10 IFC</name>
+            <description>Nike</description>
+            <address>Roswell, Walker AFB</address>
+            <Point>
+                <coordinates>-104.3476583,33.4251806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>WA-10 Launcher</name>
+            <description>Nike</description>
+            <address>Roswell, Walker AFB</address>
+            <Point>
+                <coordinates>-104.3353000,33.4361833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>WA-50 IFC</name>
+            <description>Nike</description>
+            <address>Hagerman, Walker AFB</address>
+            <Point>
+                <coordinates>-104.5422222,33.1402778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>WA-50 Launcher</name>
+            <description>Nike</description>
+            <address>Hagerman, Walker AFB</address>
+            <Point>
+                <coordinates>-104.5436806,33.1261222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MH-05 IFC</name>
+            <description>Nike</description>
+            <address>, Mountain Home AFB</address>
+            <Point>
+                <coordinates>-115.7678972,43.1610833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MH-05 Launch Battery</name>
+            <description>Nike</description>
+            <address>, Mountain Home AFB</address>
+            <Point>
+                <coordinates>-115.7865389,43.1663167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MH-79 IFC</name>
+            <description>Nike</description>
+            <address>, Mountain Home AFB</address>
+            <Point>
+                <coordinates>-116.0549056,43.0888306,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>MH-79 Launch Battery</name>
+            <description>Nike</description>
+            <address>, Mountain Home AFB</address>
+            <Point>
+                <coordinates>-116.0714778,43.0935889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-07 IFC</name>
+            <description>Nike</description>
+            <address>Spokane, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.5754472,47.7024056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-07 Launcher</name>
+            <description>Nike</description>
+            <address>Spokane, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.6077833,47.6807528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-37 IFC</name>
+            <description>Nike</description>
+            <address>Cheney, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.5545222,47.5513556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-37 Launcher</name>
+            <description>Nike</description>
+            <address>Cheney, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.5464167,47.5415806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-45 IFC</name>
+            <description>Nike</description>
+            <address>Medical Lake, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.7273917,47.5535083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-45 Launcher</name>
+            <description>Nike</description>
+            <address>Medical Lake, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.6757500,47.5863028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-87 IFC</name>
+            <description>Nike</description>
+            <address>Deep Creek, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.7422556,47.7031556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>F-87 Launcher</name>
+            <description>Nike</description>
+            <address>Deep Creek, Fairchild AFB</address>
+            <Point>
+                <coordinates>-117.7156500,47.6611667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-06 IFC</name>
+            <description>Nike</description>
+            <address>Saddle Mountain, Hanford</address>
+            <Point>
+                <coordinates>-119.4461694,46.7922417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-06 Launcher</name>
+            <description>Nike</description>
+            <address>Saddle Mountain, Hanford</address>
+            <Point>
+                <coordinates>-119.4295750,46.7485111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-12 IFC</name>
+            <description>Nike</description>
+            <address>Othello, Hanford</address>
+            <Point>
+                <coordinates>-119.3772667,46.6904917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-12 Launcher</name>
+            <description>Nike</description>
+            <address>Othello, Hanford</address>
+            <Point>
+                <coordinates>-119.4080944,46.6867806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-52 IFC</name>
+            <description>Nike</description>
+            <address>Rattlesnake Mountain, Hanford</address>
+            <Point>
+                <coordinates>-119.5960333,46.3953694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-52 Launcher</name>
+            <description>Nike</description>
+            <address>Rattlesnake Mountain, Hanford</address>
+            <Point>
+                <coordinates>-119.5327417,46.3922028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-83 IFC</name>
+            <description>Nike</description>
+            <address>Priest Rapids, Hanford</address>
+            <Point>
+                <coordinates>-119.7049028,46.6725694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>H-83 Launcher</name>
+            <description>Nike</description>
+            <address>Priest Rapids, Hanford</address>
+            <Point>
+                <coordinates>-119.7041500,46.6958861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-03 IFC</name>
+            <description>Nike</description>
+            <address>Kenmore, Seattle</address>
+            <Point>
+                <coordinates>-122.2782444,47.7731889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-03 Launcher</name>
+            <description>Nike</description>
+            <address>Kenmore, Seattle</address>
+            <Point>
+                <coordinates>-122.2349861,47.7902556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-13 and S-14 Dual IFC</name>
+            <description>Nike</description>
+            <address>Redmond, Seattle</address>
+            <Point>
+                <coordinates>-122.1076444,47.6854583,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-13/S-14 Shared Launcher</name>
+            <description>Nike</description>
+            <address>Redmond, Seattle</address>
+            <Point>
+                <coordinates>-122.0734361,47.6834694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-20 IFC</name>
+            <description>Nike</description>
+            <address>Cougar, Seattle</address>
+            <Point>
+                <coordinates>-122.0978833,47.5416056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-20 Launcher</name>
+            <description>Nike</description>
+            <address>Cougar, Seattle</address>
+            <Point>
+                <coordinates>-122.1135611,47.5311778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-32 and S-33 Shared Launcher</name>
+            <description>Nike</description>
+            <address>Youngs Lake/Renton, Seattle</address>
+            <Point>
+                <coordinates>-122.1144917,47.4516222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-32 IFC</name>
+            <description>Nike</description>
+            <address>Lake Young, Seattle</address>
+            <Point>
+                <coordinates>-122.1185806,47.4357444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-33 IFC</name>
+            <description>Nike</description>
+            <address>Lake Young/Renton, Seattle</address>
+            <Point>
+                <coordinates>-122.1449722,47.4290722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-43 IFC</name>
+            <description>Nike</description>
+            <address>Kent/Midway, Seattle</address>
+            <Point>
+                <coordinates>-122.2822583,47.3962500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-43 Launcher</name>
+            <description>Nike</description>
+            <address>Kent/Midway, Seattle</address>
+            <Point>
+                <coordinates>-122.2844667,47.3815306,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-61 IFC</name>
+            <description>Nike</description>
+            <address>Vashon Island, Seattle</address>
+            <Point>
+                <coordinates>-122.4635250,47.4182278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-61 Launcher</name>
+            <description>Nike</description>
+            <address>Vashon Island, Seattle</address>
+            <Point>
+                <coordinates>-122.4836056,47.4110472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-62 IFC</name>
+            <description>Nike</description>
+            <address>Ollala, Seattle</address>
+            <Point>
+                <coordinates>-122.5416667,47.4307778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-62 Launcher</name>
+            <description>Nike</description>
+            <address>Ollala, Seattle</address>
+            <Point>
+                <coordinates>-122.5555472,47.4196500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-81 IFC</name>
+            <description>Nike</description>
+            <address>Paulsbo, Seattle</address>
+            <Point>
+                <coordinates>-122.6298694,47.7292889,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-81 Launcher</name>
+            <description>Nike</description>
+            <address>Poulsbo, Seattle</address>
+            <Point>
+                <coordinates>-122.6617528,47.7577944,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-82 IFC</name>
+            <description>Nike</description>
+            <address>Winslow/Bainbridge, Seattle</address>
+            <Point>
+                <coordinates>-122.5233778,47.6081917,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-82 Launcher</name>
+            <description>Nike</description>
+            <address>Winslow/Bainbridge, Seattle</address>
+            <Point>
+                <coordinates>-122.5487222,47.6390000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-92 IFC</name>
+            <description>Nike</description>
+            <address>Kingston, Seattle</address>
+            <Point>
+                <coordinates>-122.4933528,47.8070500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>S-92 Launcher</name>
+            <description>Nike</description>
+            <address>Kingston, Seattle</address>
+            <Point>
+                <coordinates>-122.5182556,47.7979222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-04 IFC</name>
+            <description>Nike</description>
+            <address>Mount Gleason/Palmdale, Los Angeles</address>
+            <Point>
+                <coordinates>-118.1775056,34.3767028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-04 Launcher</name>
+            <description>Nike</description>
+            <address>Mount Gleason/Palmdale, Los Angeles</address>
+            <Point>
+                <coordinates>-118.1522417,34.3797278,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-09 IFC</name>
+            <description>Nike</description>
+            <address>Mount Disappointment/Barkley, Los Angeles</address>
+            <Point>
+                <coordinates>-118.1049389,34.2464139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-09 Launcher</name>
+            <description>Nike</description>
+            <address>Mount Disappointment/Barkley, Los Angeles</address>
+            <Point>
+                <coordinates>-118.0721361,34.2764500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-14 IFC</name>
+            <description>Nike</description>
+            <address>South El Monte, Los Angeles</address>
+            <Point>
+                <coordinates>-118.0149222,34.0171167,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-14 Launcher</name>
+            <description>Nike</description>
+            <address>South El Monte, Los Angeles</address>
+            <Point>
+                <coordinates>-118.0591028,34.0431778,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-29 IFC</name>
+            <description>Nike</description>
+            <address>Brea/Puente Hill, Los Angeles</address>
+            <Point>
+                <coordinates>-117.8956778,33.9550972,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-29 Launcher</name>
+            <description>Nike</description>
+            <address>Brea/Puente Hill, Los Angeles</address>
+            <Point>
+                <coordinates>-117.8854250,33.9597944,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-32 IFC</name>
+            <description>Nike</description>
+            <address>Garden Grove/Stanton, Los Angeles</address>
+            <Point>
+                <coordinates>-118.0103111,33.7978833,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-32 Launcher</name>
+            <description>Nike</description>
+            <address>Garden Grove/Stanton, Los Angeles</address>
+            <Point>
+                <coordinates>-118.0028750,33.7903722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-40 IFC</name>
+            <description>Nike</description>
+            <address>Long Beach Airport, Los Angeles</address>
+            <Point>
+                <coordinates>-118.1346111,33.8097083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-40 Launcher</name>
+            <description>Nike</description>
+            <address>Long Beach Airport, Los Angeles</address>
+            <Point>
+                <coordinates>-118.1452250,33.8097444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-43 IFC</name>
+            <description>Nike</description>
+            <address>Fort MacArthur (upper), Los Angeles</address>
+            <Point>
+                <coordinates>-118.2942750,33.7120194,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-43 Launcher</name>
+            <description>Nike</description>
+            <address>Fort MacArthur (upper), Los Angeles</address>
+            <Point>
+                <coordinates>-118.3136000,33.7164028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-55 IFC</name>
+            <description>Nike</description>
+            <address>Point Vincente, Los Angeles</address>
+            <Point>
+                <coordinates>-118.3687639,33.7565639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-55 Launcher</name>
+            <description>Nike</description>
+            <address>Point Vincente, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4039833,33.7435694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-57 IFC</name>
+            <description>Nike</description>
+            <address>Redondo Beach/Torrence, Los Angeles</address>
+            <Point>
+                <coordinates>-118.3745111,33.8298444,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-57 Launcher</name>
+            <description>Nike</description>
+            <address>Redondo Beach/Torrence, Los Angeles</address>
+            <Point>
+                <coordinates>-118.3299806,33.7968000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-70 IFC</name>
+            <description>Nike</description>
+            <address>Hyperion/Playa del Rey, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4457194,33.9566222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-70/LA-73 shared Launcher</name>
+            <description>Nike</description>
+            <address>Play del Rey/LAX, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4366389,33.9513028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-73 IFC</name>
+            <description>Nike</description>
+            <address>Playa del Rey/LAX, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4356889,33.9585250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-78 IFC</name>
+            <description>Nike</description>
+            <address>Malibu, Los Angeles</address>
+            <Point>
+                <coordinates>-118.6554944,34.0782333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-78 Launcher</name>
+            <description>Nike</description>
+            <address>Malibu, Los Angeles</address>
+            <Point>
+                <coordinates>-118.6463028,34.0602528,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-88 IFC</name>
+            <description>Nike</description>
+            <address>Chatsworth/Oat Mountain, Los Angeles</address>
+            <Point>
+                <coordinates>-118.5868222,34.3263389,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-88 Launcher</name>
+            <description>Nike</description>
+            <address>Chatsworth/Oat Mountain, Los Angeles</address>
+            <Point>
+                <coordinates>-118.6070778,34.3121056,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-94 IFC</name>
+            <description>Nike</description>
+            <address>Los Pinetos/Newhall, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4168361,34.3530083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-94 Launcher</name>
+            <description>Nike</description>
+            <address>Los Pinetos/Newhall, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4089083,34.3473361,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-96 IFC</name>
+            <description>Nike</description>
+            <address>Van Nuys/Sepulveda, Los Angeles</address>
+            <Point>
+                <coordinates>-118.5127583,34.1286417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-96 Launcher</name>
+            <description>Nike</description>
+            <address>Van Nuys/Sepulveda, Los Angeles</address>
+            <Point>
+                <coordinates>-118.4822472,34.1851250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-98 IFC</name>
+            <description>Nike</description>
+            <address>Magic Mountain/Lang Saugus, Los Angeles</address>
+            <Point>
+                <coordinates>-118.3292639,34.3863250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>LA-98 Launcher</name>
+            <description>Nike</description>
+            <address>Magic Mountain/Lang Saugus, Los Angeles</address>
+            <Point>
+                <coordinates>-118.3760639,34.4323500,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-08 IFC</name>
+            <description>Nike</description>
+            <address>San Pablo Ridge/Berkeley, San Francisco</address>
+            <Point>
+                <coordinates>-122.2778944,37.9396333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-08 Launcher</name>
+            <description>Nike</description>
+            <address>San Pablo Ridge/Berkeley, San Francisco</address>
+            <Point>
+                <coordinates>-122.2622528,37.9264222,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-09 IFC</name>
+            <description>Nike</description>
+            <address>San Pablo Ridge/Berkeley, San Francisco</address>
+            <Point>
+                <coordinates>-122.2781611,37.9390250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-09 Launcher</name>
+            <description>Nike</description>
+            <address>San Pablo Ridge/Berkeley, San Francisco</address>
+            <Point>
+                <coordinates>-122.2615444,37.9252806,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-25 IFC</name>
+            <description>Nike</description>
+            <address>Rock Ridge, San Francisco</address>
+            <Point>
+                <coordinates>-122.0622306,37.8158694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-25 Launcher</name>
+            <description>Nike</description>
+            <address>Rock Ridge, San Francisco</address>
+            <Point>
+                <coordinates>-122.0407111,37.8115750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-31 IFC</name>
+            <description>Nike</description>
+            <address>Lake Chabot/Castro Valley, San Francisco</address>
+            <Point>
+                <coordinates>-122.1187250,37.7238000,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-31 Launcher</name>
+            <description>Nike</description>
+            <address>Lake Chabot/Castro Valley, San Francisco</address>
+            <Point>
+                <coordinates>-122.0987972,37.7213333,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-37 IFC</name>
+            <description>Nike</description>
+            <address>Coyote Hills/Newark, San Francisco</address>
+            <Point>
+                <coordinates>-122.0822833,37.5402417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-37 Launcher</name>
+            <description>Nike</description>
+            <address>Coyote Hills/Newark, San Francisco</address>
+            <Point>
+                <coordinates>-122.0958278,37.5597028,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-51 IFC</name>
+            <description>Nike</description>
+            <address>Milagra/Pacifica, San Francisco</address>
+            <Point>
+                <coordinates>-122.4591944,37.6133083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-51 Launcher</name>
+            <description>Nike</description>
+            <address>Milagra/Pacifica, San Francisco</address>
+            <Point>
+                <coordinates>-122.4790694,37.6394667,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-59 IFC</name>
+            <description>Nike</description>
+            <address>Fort Funston/Mount San Bruno, San Francisco</address>
+            <Point>
+                <coordinates>-122.4479250,37.6924472,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-59 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Funston/Mount San Bruno, San Francisco</address>
+            <Point>
+                <coordinates>-122.5017194,37.7148861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-87 IFC</name>
+            <description>Nike</description>
+            <address>Fort Cronkhite/Sausalito, San Francisco</address>
+            <Point>
+                <coordinates>-122.4994167,37.8278417,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-87 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Cronkhite/Sausalito, San Francisco</address>
+            <Point>
+                <coordinates>-122.5307583,37.8352722,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-88 IFC</name>
+            <description>Nike</description>
+            <address>Fort Barry/Sausalito, San Francisco</address>
+            <Point>
+                <coordinates>-122.5321528,37.8423694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-88 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Barry/Sausalito, San Francisco</address>
+            <Point>
+                <coordinates>-122.5276917,37.8268139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-89 IFC</name>
+            <description>Nike</description>
+            <address>Fort Winfield Scott, San Francisco</address>
+            <Point>
+                <coordinates>-122.4572889,37.7582389,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-89 Launcher</name>
+            <description>Nike</description>
+            <address>Fort Winfield Scott, San Francisco</address>
+            <Point>
+                <coordinates>-122.4739444,37.7923750,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-91 IFC</name>
+            <description>Nike</description>
+            <address>Angel Island, San Francisco</address>
+            <Point>
+                <coordinates>-122.4307167,37.8615083,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-91 Launcher</name>
+            <description>Nike</description>
+            <address>Angel Island, San Francisco</address>
+            <Point>
+                <coordinates>-122.4226417,37.8564556,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-93 IFC</name>
+            <description>Nike</description>
+            <address>San Raphael, San Francisco</address>
+            <Point>
+                <coordinates>-122.5026750,37.9977861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>SF-93 Launcher</name>
+            <description>Nike</description>
+            <address>San Raphael, San Francisco</address>
+            <Point>
+                <coordinates>-122.5210583,38.0240139,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-10 IFC</name>
+            <description>Nike</description>
+            <address>Elmira, Travis AFB</address>
+            <Point>
+                <coordinates>-121.8724194,38.3168861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-10 Launcher</name>
+            <description>Nike</description>
+            <address>Elmira, Travis AFB</address>
+            <Point>
+                <coordinates>-121.8939583,38.3172861,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-33 IFC</name>
+            <description>Nike</description>
+            <address>Dixon/Lambie, Travis AFB</address>
+            <Point>
+                <coordinates>-121.8477056,38.2177944,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-33 Launcher</name>
+            <description>Nike</description>
+            <address>Dixon/Lambie, Travis AFB</address>
+            <Point>
+                <coordinates>-121.8634278,38.2238111,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-53 IFC</name>
+            <description>Nike</description>
+            <address>Potrero Hills, Travis AFB</address>
+            <Point>
+                <coordinates>-121.9494139,38.2073694,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-53 Launcher</name>
+            <description>Nike</description>
+            <address>Potrero Hills, Travis AFB</address>
+            <Point>
+                <coordinates>-121.9357917,38.2029639,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-86 IFC</name>
+            <description>Nike</description>
+            <address>Fairfield/Cement Hills, Travis AFB</address>
+            <Point>
+                <coordinates>-121.9994528,38.2991250,0</coordinates>
+            </Point>
+        </Placemark>
+        <Placemark>
+            <name>T-86 Launcher</name>
+            <description>Nike</description>
+            <address>Fairfield/Cement Hills, Travis AFB</address>
+            <Point>
+                <coordinates>-122.0025778,38.2761667,0</coordinates>
+            </Point>
+        </Placemark>
+    </Folder>
+</Document>
+</kml>
