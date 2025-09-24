@@ -111,7 +111,8 @@ function map_init() {
                     [[40.111883,-88.228173],'College at UIUC<br>2015-2018<br>Champaign, IL'],
                     [[33.016071,-117.103620],'Engineer at General Atomics<br>2018-2020<br>San Diego, CA'],
                     [[35.036772,-106.543437],'Engineer at Sandia National Laboratories<br>2020-2021<br>Albuquerque, NM'],
-                    [[47.672833,-122.094306],'Engineer at Project Kuiper (Amazon)<br>2021-present<br>Redmond, WA']];
+                    [[47.672833,-122.094306],'Engineer at Project Kuiper (Amazon)<br>2021-2023<br>Redmond, WA'],
+                    [[35.054849,-106.531389],'Engineer at SolAero (Rocket Lab)<br>2024-present<br>Albuquerque, NM']];
     
     x_min = Infinity
     x_max = -Infinity
